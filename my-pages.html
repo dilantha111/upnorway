@@ -1,0 +1,710 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>UpNorway</title>
+    <!--Fontawesome-->
+    <link rel="stylesheet" href="fontawesome/css/fontawesome-pro-core.css">
+    <link rel="stylesheet" href="fontawesome/css/fontawesome-pro-solid.css">
+    <link rel="stylesheet" href="fontawesome/css/fontawesome-pro-regular.css">
+    <link rel="stylesheet" href="fontawesome/css/fontawesome-pro-light.css">
+    <link rel="stylesheet" href="fontawesome/css/fontawesome-pro-brands.css">
+    <!--Datepicker-->
+    <link rel="stylesheet" href="datepicker/css/calendar.css">
+    <!--css-->
+    <link rel="stylesheet" href="css/parent.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+  
+</head>
+<body class="bd-bg">   
+
+  <div class="container">
+    <!--Tabs-->
+    <ul class="nav nav-tabs gn_tabs" id="myTab" role="tablist">
+      <li class="nav-item">
+        <a class="nav-link active" id="home-tab" data-toggle="tab" href="#your_journey" role="tab" aria-controls="home" aria-selected="true">Your Journey</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" id="profile-tab" data-toggle="tab" href="#your_detail" role="tab" aria-controls="profile" aria-selected="false">Your DETAILS</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" id="contact-tab" data-toggle="tab" href="#payments" role="tab" aria-controls="contact" aria-selected="false">PAYMENTS</a>
+      </li>
+      <li class="tabs_drop">
+        <div class="dropdown">
+          <button class="dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Jhon Wick
+          </button>
+          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <a class="dropdown-item" href="#">Logout</a>
+          </div>
+        </div>
+      </li>
+    </ul>
+    <div class="tab-content" id="myTabContent">
+      <div class="tab-pane fade show active" id="your_journey" role="tabpanel" aria-labelledby="home-tab">
+        <div class="main_tcontent_wrapper">
+          <div class="row">
+            <div class="col-md-12 col-sm-12 col-lg-8">
+              <div class="tcontent_left_side">
+                <div class="tcontent_head">
+                  <div class="row">
+                    <div class="col-md-9 col-sm-12">
+                      <div class="tcontent_head_left">
+                        <h2>Oslo - Jotunheimen  <span>for Mr. Smith and Family</span></h2>
+                        <p>Please check <a href="#">Your Trip Plan</a> for more updated details and changes</p>
+                      </div>
+                    </div>
+                    <div class="col-md-3 col-sm-12">
+                      <div class="tcontent_right">
+                        <h4>Journey ID  9842156 </h4>
+                        <button type="button" class="btn btn-danger">Payment Due</button>
+                      </div>  
+                    </div>
+                  </div>
+                </div>
+                <div class="travellar_wrap">
+                  <div class="row">
+                    <div class="col-md-6 col-sm-12">
+                      <div class="travellar">
+                        <div class="img_wrap">
+                          <img src="images/travellar_img.jpg">
+                        </div>
+                        <div class="travellar_dtl">
+                          <h4>Torunn</h4>
+                          <p>Local Insider Up Norway</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-6 col-sm-12">
+                      <div class="row mt-15">
+                        <div class="col-md-4 col-sm-4 col-xs-4">
+                          <div class="travellar_right">
+                            <span>Total Price</span>
+                            <h3>$1230.12</h3>
+                          </div>
+                        </div>
+                        <div class="col-md-4 col-sm-4 col-xs-4">
+                          <div class="travellar_right">
+                            <span>Per Person</span>
+                            <h3>$123.00</h3>
+                          </div>
+                        </div>
+                        <div class="col-md-4 col-sm-4 col-xs-4 width_480">
+                          <div class="travellar_right">
+                            <span>CURRENCY</span>
+                            <select class="form-control theme-select">
+                              <option>USD</option>
+                            </select>
+                          </div>
+                        </div>
+                      </div>  
+                    </div>
+                  </div>
+                </div>
+                <div class="travelar_info_wrap">
+                  <div class="travellar_info_block clearfix">
+                    <div class="img_wrap">
+                      <img src="images/place_img.jpg">
+                    </div>
+                    <div class="travellar_dtl">
+                      <h2>DAY 1:  <span>Tue Jul 9</span></h2>
+                      <p>Kjore Trondheim - Inderoy: 110km / ca. 1 t 45 min</p>
+                    </div>
+                    <div class="clearfix"></div>
+                    <ul class="travellar_listing">
+                      <li class="clearfix">
+                        <p>Farm Visit - Lofoten</p>
+                        <button class="btn red_outline_btn" data-toggle="tooltip" data-placement="top" title="Expected date for update: Wed Jun 30"> <i class="fas fa-clock"></i> Pending</button>
+                      </li>
+                      <li class="clearfix">
+                        <p>Visit the Viking Museum</p>
+                        <button class="btn green_outline_btn"> <i class="fas fa-check-circle"></i> Confirmed</button>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="travellar_info_block clearfix">
+                    <div class="img_wrap">
+                      <img src="images/place_img.jpg">
+                    </div>
+                    <div class="travellar_dtl">
+                      <h2>DAY 2:  <span>Tue Jul 9</span></h2>
+                      <p>Kjore Trondheim - Inderoy: 110km / ca. 1 t 45 min</p>
+                    </div>
+                    <div class="clearfix"></div>
+                    <ul class="travellar_listing">
+                      <li class="clearfix">
+                        <p>Farm Visit - Lofoten</p>
+                        <button class="btn red_outline_btn" data-toggle="tooltip" data-placement="top" title="Expected date for update: Wed Jun 30"> <i class="fas fa-clock"></i> Pending</button>
+                      </li>
+                      <li class="clearfix">
+                        <p>Visit the Viking Museum</p>
+                        <button class="btn green_outline_btn"> <i class="fas fa-check-circle"></i> Confirmed</button>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="travellar_info_block clearfix">
+                    <div class="img_wrap">
+                      <img src="images/place_img.jpg">
+                    </div>
+                    <div class="travellar_dtl">
+                      <h2>DAY 3:  <span>Tue Jul 9</span></h2>
+                      <p>Kjore Trondheim - Inderoy: 110km / ca. 1 t 45 min</p>
+                    </div>
+                    <div class="clearfix"></div>
+                    <ul class="travellar_listing">
+                      <li class="clearfix">
+                        <p>Farm Visit - Lofoten</p>
+                        <button class="btn red_outline_btn" data-toggle="tooltip" data-placement="top" title="Expected date for update: Wed Jun 30"> <i class="fas fa-clock"></i> Pending</button>
+                      </li>
+                      <li class="clearfix">
+                        <p>Visit the Viking Museum</p>
+                        <button class="btn green_outline_btn"> <i class="fas fa-check-circle"></i> Confirmed</button>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="travellar_info_block clearfix">
+                    <div class="img_wrap">
+                      <img src="images/place_img.jpg">
+                    </div>
+                    <div class="travellar_dtl">
+                      <h2>DAY 4:  <span>Tue Jul 9</span></h2>
+                      <p>Kjore Trondheim - Inderoy: 110km / ca. 1 t 45 min</p>
+                    </div>
+                    <div class="clearfix"></div>
+                    <ul class="travellar_listing">
+                      <li class="clearfix">
+                        <p>Farm Visit - Lofoten</p>
+                        <button class="btn red_outline_btn" data-toggle="tooltip" data-placement="top" title="Expected date for update: Wed Jun 30"> <i class="fas fa-clock"></i> Pending</button>
+                      </li>
+                      <li class="clearfix">
+                        <p>Visit the Viking Museum</p>
+                        <button class="btn green_outline_btn"> <i class="fas fa-check-circle"></i> Confirmed</button>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-12 col-sm-12 col-lg-4">
+              <div class="tcontent_right_side">
+                <div class="add_img">
+                  <img src="images/add_img.jpg">
+                </div>
+                <div class="add_on">
+                  <h3 class="section-heading">Addons</h3>
+                  <ul>
+                    <li>This space can be left for us to present the data of add-ons later</li>
+                    <li>This space can be left for us to present the data of add-ons later</li>
+                    <li>This space can be left for us to present the data of add-ons later</li>
+                    <li>This space can be left for us to present the data of add-ons later</li>
+                  </ul>
+                </div>
+                <div class="add_on satus_log">
+                  <h3 class="section-heading">Status Log</h3>
+                  <ul>
+
+                      <li class="clearfix">
+                      <div class="statust-text">
+                          <div class="block green"><span class="paid"><i class="fas fa-check-circle"></i>Paid</span>20 -01 - 18</div>
+                       Deposit Payment of $25,000
+                      </div>
+                    </li>
+
+                    <li class="clearfix">
+                        <div class="statust-text">
+                            <div class="block green"><span class="paid"><i class="fas fa-check-circle"></i>Paid</span>20 -01 - 18</div>
+                         Deposit Payment of $25,000
+                        </div>
+                      </li>
+
+                      <li class="clearfix">
+                          <div class="statust-text">
+                              <div class="block red"><span class="pending"><i class="fas fa-clock"></i>Due</span>20 -01 - 18</div>
+                           Deposit Payment of $25,000
+                          </div>
+                        </li>
+
+                        <li class="clearfix">
+                            <div class="statust-text">
+                                <div class="block green"><span class="paid"><i class="fas fa-check-circle"></i>Paid</span>20 -01 - 18</div>
+                             Deposit Payment of $25,000
+                            </div>
+                          </li>
+
+                          <li class="clearfix">
+                              <div class="statust-text">
+                                  <div class="block red"><span class="pending"><i class="fas fa-clock"></i>pending</span>20 -01 - 18</div>
+                               Deposit Payment of $25,000
+                              </div>
+                            </li>
+
+                            <li class="clearfix">
+                                <div class="statust-text">
+                                    <div class="block green"><span class="paid"><i class="fas fa-check-circle"></i>Paid</span>20 -01 - 18</div>
+                                 Deposit Payment of $25,000
+                                </div>
+                              </li>
+                              <li class="clearfix">
+                                  <div class="statust-text">
+                                      <div class="block green"><span class="paid"><i class="fas fa-check-circle"></i>Paid</span>20 -01 - 18</div>
+                                   Deposit Payment of $25,000
+                                  </div>
+                                </li>
+                                <li class="clearfix">
+                                    <div class="statust-text">
+                                        <div class="block green"><span class="paid"><i class="fas fa-check-circle"></i>Paid</span>20 -01 - 18</div>
+                                     Deposit Payment of $25,000
+                                    </div>
+                                  </li>
+
+
+                   
+                  </ul>
+                </div>
+              </div>  
+            </div>
+          </div>
+        </div>  
+      </div>
+      <div class="tab-pane fade" id="your_detail" role="tabpanel" aria-labelledby="profile-tab">
+        <div class="main_tcontent_wrapper">
+          <div class="sec_tcontent">
+            <h3 class="tcontent_head brd_none">Profile Information</h3>
+            <div class="table-responsive">
+              <table class="table borderless">
+                <thead class="tbl_head">
+                  <tr>
+                    <th scope="col">First Name</th>
+                    <th scope="col">Last Name</th>
+                    <th scope="col">Age</th>
+                    <th scope="col">Occupation</th>
+                    <th scope="col">Nationality</th>
+                    <th scope="col">Fitness Level</th>
+                    <th scope="col">Travelling Form</th>
+                    <th scope="col">Flight preference</th>
+                    <th scope="col">Email</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr class="border-btm">
+                    <td>Will</td>
+                    <td>Smith</td>
+                    <td>53</td>
+                    <td>Doctor</td>
+                    <td>USA</td>
+                    <td>Fit</td>
+                    <td>Japan</td>
+                    <td>Economy</td>
+                    <td>will.smith@gmail.com</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+
+            <h3 class="tcontent_head brd_none">Other Travellar <button class="btn green_btn float-right"> <i class="fas fa-plus"></i> Add New</button></h3>
+            <div class="travellar_info_block pad_none">
+              <h4 class="other_travellar">Add New Travellar</h4>
+              <form action="" method="" class="other_travellar_form">
+                <div class="row">
+                  <div class="col-md-3 col-sm-3 add-traveller">
+                    <div class="form-group">
+                      <input type="text" required="required">
+                      <label class="control-label" for="input">First Name</label><i class="bar"></i>
+                    </div> 
+                  </div>
+                  <div class="col-md-3 col-sm-3 add-traveller">
+                    <div class="form-group">
+                      <input type="text" required="required">
+                      <label class="control-label" for="input">Last Name</label><i class="bar"></i>
+                    </div> 
+                  </div>
+                  <div class="col-md-3 col-sm-3 add-traveller">
+                    <div class="form-group">
+                      <input type="text" required="required">
+                      <label class="control-label" for="input">Age</label><i class="bar"></i>
+                    </div> 
+                  </div>
+                  <div class="col-md-3 col-sm-3 add-traveller">
+                    <div class="form-group">
+                      <input type="text" required="required">
+                      <label class="control-label" for="input">Nationality</label><i class="bar"></i>
+                    </div> 
+                  </div>
+                </div>   
+                <div class="mt-30 row">
+                  <div class="col-md-6 col-sm-6 add-traveller">
+                    <div class="form-group">
+                      <select class="theme-select">
+                        <option></option>
+                        <option>Level 1</option>
+                        <option>Level 2</option>
+                      </select>
+                      <label class="control-label" for="input">Fitness Level</label><i class="bar"></i>
+                    </div> 
+                  </div> 
+                  <div class="col-md-6 col-sm-6">
+                    <div class="form-group">
+                      <input type="text" required="required">
+                      <label class="control-label" for="input">Remarks</label><i class="bar"></i>
+                    </div> 
+                  </div>
+                  <div class="col-md-12">
+                    <div class="text-center travellar_actionBtn">
+                      <button class="btn green_btn"> Save</button>
+                      <button class="btn red_outline_btn"> Cancel</button>
+                    </div>  
+                  </div> 
+                </div>  
+              </form>
+            </div>
+
+            <div class="table-responsive">
+              <table class="table borderless">
+                <thead class="tbl_head">
+                  <tr>
+                    <th scope="col">First Name</th>
+                    <th scope="col">Last Name</th>
+                    <th scope="col">Age</th>
+                    <th scope="col">Nationality</th>
+                    <th scope="col">Fitness Level</th>
+                    <th scope="col">Remarks</th>
+                    <th scope="col">Actions</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Will</td>
+                    <td>Smith</td>
+                    <td>53</td>
+                    <td>USA</td>
+                    <td>Fit</td>
+                    <td>Some text for remarks here</td>
+                    <td class="now_action">
+                      <button type="button" class="btn"><i class="fas fa-pen"></i></button>
+                      <button type="button" class="btn"><i class="fas fa-trash"></i></button>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Will</td>
+                    <td>Smith</td>
+                    <td>53</td>
+                    <td>USA</td>
+                    <td>Fit</td>
+                    <td>Some text for remarks here</td>
+                    <td class="now_action">
+                      <button type="button" class="btn"><i class="fas fa-pen"></i></button>
+                      <button type="button" class="btn"><i class="fas fa-trash"></i></button>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Will</td>
+                    <td>Smith</td>
+                    <td>53</td>
+                    <td>USA</td>
+                    <td>Fit</td>
+                    <td>Some text for remarks here</td>
+                    <td class="now_action">
+                      <button type="button" class="btn"><i class="fas fa-pen"></i></button>
+                      <button type="button" class="btn"><i class="fas fa-trash"></i></button>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Will</td>
+                    <td>Smith</td>
+                    <td>53</td>
+                    <td>USA</td>
+                    <td>Fit</td>
+                    <td>Some text for remarks here</td>
+                    <td class="now_action">
+                      <button type="button" class="btn"><i class="fas fa-pen"></i></button>
+                      <button type="button" class="btn"><i class="fas fa-trash"></i></button>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+          <div class="row">
+              <div class="col-md-6 col-sm-6">
+                <div class="interest white-card">
+                  <h3 class="section-heading">Interests</h3>
+                  <div class="interest_label">
+                    <span>Nature & Wildlife</span>
+                    <span>Local Culture</span>
+                    <span>Active Outdoors</span>
+                    <span>Trekking</span>
+                    <span>Museums & Galleries</span>
+                    <span>Farm Stays</span>
+                    <span>Using Public Transportation</span>
+                    <span>Local Culture</span>
+                    <span>Farm Stays</span>
+                    <span>Trekking</span>
+                    <span>Nature & Wildlife</span>
+                    <span>Active Outdoors</span>
+                    <span>Museums & Galleries</span>
+                    <span>Using Public Transportation</span>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 col-sm-6">
+                <div class="additional_comments white-card">
+                  <h3 class="section-heading">Additional Comments</h3>
+                  <div class="Additional_Comments">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. ultrices porta imperdiet. Ut a ultricies purus. 
+                    Ut elemen cursus enim esagittis.Nullam sed Lorem ipsum dolor sit amet consectetur adipiscing elit.
+                    ultrices porta imperdiet. Ut a ultricies purus. Ut elemen cursus enim esagittis.Nullam sed Lorem ipsum
+                    dolor sit amet, consectetur </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+      </div>
+      <div class="tab-pane fade" id="payments" role="tabpanel" aria-labelledby="contact-tab">
+        <div class="main_tcontent_wrapper">
+          <div class="third_tcontent">
+          <div class="payment_tbl">
+            <div class="table-responsive">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th class="min_width_350">Payments</th>
+                    <th>Due Date</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="pl-30">
+                      <h5>€500</h5>
+                      <span>Deposits</span>
+                    </td>
+                    <td>
+                      <div class="Due_Date">
+                      14,05,2018 <label class="green_outline_btn"> <i class="fas fa-check-circle"></i> Paid</label>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="pl-30">
+                      <h5>€7,900</h5>
+                      <span>Final Payments</span>
+                    </td>
+                    <td>
+                      <div class="Due_Date">
+                        14,05,2018
+                      </div>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>  
+            <div class="pay_with">
+              <span>Pay with</span>
+              <button type="button" class="btn green_btn"><i class="fas fa-credit-card"></i> Credit Card</button>
+              <button type="button" class="btn green_btn"><i class="fal fa-university"></i> Bank Transfer</button>
+              <button type="button" class="btn grey_btn"><i class="fas fa-download"></i> Download Receipt </button>
+            </div>
+          </div>
+
+          <div class="white-card">
+            <h3 data-toggle="collapse" data-target="#collapseOne" class="section-heading"><i class="fas fa-chevron-down"></i> Stripe Account</h3>
+            <form action="" method="get" class="payment_info_form collapse show" id="collapseOne">
+              <div class="text-center payment-info-heading">
+                <h4>Payment Information</h4>
+                <p>We Accept Master Card, Visa Card American Express or some text</p>
+              </div>
+              <div class="row">
+                <div class="col-md-6 col-sm-6">
+                  <div class="form-group">
+                      <input type="text" required="required">
+                      <label class="control-label" for="input">Card Holder Name</label><i class="bar"></i>
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-6">
+                  <div class="form-group">
+                      <input type="text" required="required">
+                      <label class="control-label" for="input">Card Number </label><i class="bar"></i>
+                    </div>
+                </div>
+              </div>
+              <div class="row mt-40 mobile-card-date">  
+                <div class="col-md-3 col-sm-3">
+                  <div class="form-group">
+                      <div class="date_picker">
+                        <input type="text" id="dt" required="required">
+                        <div id="two"></div>
+                        <label class="control-label" for="input">Expiry MM/YY </label><i class="bar"></i>
+                      </div>  
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-3">
+                  <div class="form-group">
+                      <input type="text" required="required">
+                      <label class="control-label" for="input">3 Digit CVS Code </label><i class="bar"></i>
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-6">
+                  <div class="form-group">
+                      <select class="theme-select">
+                        <option value=""></option>
+                        <option value="">Russia</option>
+                        <option value="">Russia</option>
+                      </select>
+                      <label class="control-label" for="input">Select Country</label><i class="bar"></i>
+                    </div>
+                </div>  
+              </div>
+              <div class="text-center">
+                <button type="submit" class="btn green_btn">Save</button>
+              </div>
+              <div class="info_note text-center">
+                <strong>Info</strong> &nbsp;&nbsp;<i class="fas fa-caret-right"></i>&nbsp;&nbsp; <span>Credit card information is not stored on our servers. The payment processing is 100% secure and is provided by stripe</span>
+              </div>
+            </form>
+          </div>
+
+          <div class="bank_trans_info">
+            <h3 data-toggle="collapse" data-target="#collapseTwo" class="section-heading"><i class="fas fa-chevron-down"></i> Bank Transfer Info</h3>
+            <div class="bank_trans_info_inner" id="collapseTwo" class="collapse show">
+              <div class="row">
+                <div class="col-md-5 col-sm-5">
+                  <div class="account_dtl">
+                    <p>Please transfer and mark your payment with UP34299 and
+                    upload the receipt to the right.</p>
+                    <h5 class="mt-30">Account Name:</h5>
+                    <p>UP! NORWAY AS<br>
+                    Rødhettevegen 7,<br> 
+                    2212 Kongsvinger, <br>
+                    Norway</p>
+                    <h5 class="mt-30">IBAN: </h5>
+                    <p>NO9115434234234</p>
+                    <h5>BIC / SWIFT:</h5>
+                    <p>DNBANOKKXXX</p>
+                  </div>
+                </div>
+                <div class="col-md-7 col-sm-7">
+                  <div class="my_receipts">
+                    <h3>My Receipts</h3>
+                    <ul>
+                      <li class="clearfix">
+                        <div class="img_wrap">
+                          <img src="images/camera.png">
+                        </div>
+                        <div class="dtl">
+                          <h5>image.jpg</h5>
+                          <p>20/18/2018</p>
+                        </div>
+                        <button type="button" class="btn"> <i class="fas fa-trash"></i></button>
+                      </li>
+                      <li class="clearfix">
+                        <div class="img_wrap">
+                          <img src="images/camera.png">
+                        </div>
+                        <div class="dtl">
+                          <h5>image.jpg</h5>
+                          <p>20/18/2018</p>
+                        </div>
+                        <button type="button" class="btn"> <i class="fas fa-trash"></i></button>
+                      </li>
+                      <li class="clearfix">
+                        <div class="img_wrap">
+                          <img src="images/camera.png">
+                        </div>
+                        <div class="dtl">
+                          <h5>image.jpg</h5>
+                          <p>20/18/2018</p>
+                        </div>
+                        <button type="button" class="btn"> <i class="fas fa-trash"></i></button>
+                      </li>
+                    </ul>
+                    <div class="mt-20">
+                      <button type="button" class="btn green_btn"><i class="fas fa-upload"></i> Upload New</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          </div>
+        </div>  
+      </div>
+    </div>
+    </div>
+  </div>  
+  
+ <script type="text/javascript" src="js/jquery-2.2.4.min.js"></script>
+
+  <script defer src="fontawesome/js/packs/light.min.js"></script>
+  <script defer src="fontawesome/js/packs/regular.min.js"></script>
+  <script defer src="fontawesome/js/packs/solid.min.js"></script>
+  <script defer src="fontawesome/js/packs/brands.min.js"></script>
+  <!-- <script defer src="fontawesome/js/fontawesome.min.js"></script> -->
+  <script type="text/javascript" src="https://unpkg.com/popper.js"></script>
+ <script type="text/javascript" src="js/bootstrap.min.js"></script>
+ <script type="text/javascript" src="js/jquery.backstretch.min.js"></script>
+ <script type="text/javascript" src="datepicker/js/calendar.js"></script>
+ <script type="text/javascript" src="js/scripts.js"></script>
+
+<script type="text/javascript">
+  $(function () {
+  $('[data-toggle="tooltip"]').tooltip()
+})
+</script>
+
+<!--Datepicker Script-->
+<script>
+        var now = new Date();
+        var year = now.getFullYear();
+        var month = now.getMonth() + 1;
+        var date = now.getDate();
+
+
+        var data = [{
+            date: year + '-' + month + '-' + (date - 1),
+            value: 'hello'
+        }, {
+            date: year + '-' + month + '-' + date,
+            value: ''
+        }, {
+            date: new Date(year, month - 1, date + 1),
+            value: ''
+        }, {
+            date: '2016-10-31',
+            value: '2016-10-31'
+        }];
+
+        // picker
+        $('#two').calendar({
+            trigger: '#dt',
+            // offset: [0, 1],
+            zIndex: 999,
+            
+            monthArray: ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'],
+                weekArray: ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'],
+            data: data,
+            onSelected: function (view, date, data) {
+                console.log('event: onSelected')
+            },
+            onClose: function (view, date, data) {
+                console.log('event: onClose')
+                console.log('view:' + view)
+                console.log('date:' + date)
+                console.log('data:' + (data || '无'));
+            }
+        });
+
+        // Dynamic elements
+        // var $demo = $('#demo');
+        // var UID = 1;
+        // $('#add').click(function () {
+        //     $demo.append('<input id="input-' + UID + '"><div id="ca-' + UID + '"></div>');
+        //     $('#ca-' + UID).calendar({
+        //         trigger: '#input-' + UID++
+        //     })
+        // })
+    </script>
+</body>
+</html>
