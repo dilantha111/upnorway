@@ -1,3 +1,4 @@
+@import 'bootstrap.min.css';
 @import 'animate.css';
 @import 'home-page.css';
 @import 'experience.css';
@@ -7,5 +8,7 @@
 @import 'wizard.css';
 @import 'page.css';
 @import 'journey.css';
+@import 'about-us.css';
+@import 'up-guide-main.css';
 @import 'responsive.css';
-@import 'bootstrap.min.css';
+

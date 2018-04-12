@@ -1,0 +1,12 @@
+.up-guide-main-bg{
+   background: url(../images/up-guides-main.jpg) no-repeat center;background-size: cover;
+   min-height: 725px;
+}
+.up_guide .para{max-width: 100%;}
+.destination_main_wrap{margin-top: 80px;}
+.destination_wrap{position: relative;margin-bottom: 220px;}
+.destination_wrap .img_wrap img{width: 100%;}
+.destination_wrap .destination_dtl{background: #fff;box-shadow: 0 0 26px rgba(218, 218, 218, 0.7);position: absolute;left: 0;bottom: -110px;padding: 40px 30px;width: 85%;z-index: 999;}
+.destination_wrap .destination_dtl h5{font-size: 14px;color: #242424;font-weight: 600;}
+.destination_wrap .destination_dtl h3{font-size: 24px;color: #242424;font-weight: bold;}
+.destination_wrap .destination_dtl p{font-size: 14px;font-weight: 400;color: #242424;margin-bottom: 0;}

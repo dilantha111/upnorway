@@ -91,7 +91,7 @@ img{max-width: 100%;}
 .navbar.navbar-expand-lg.navbar-light.bg-faded{padding: 50px 0 0 0;}
 .navbar-light .navbar-nav .nav-link {color: #fff;font-size: 14px;font-weight: 300;text-transform: uppercase;position: relative;}
 .navbar-light .navbar-nav .nav-link:before{content: "";position: absolute;left: 0;width: 0;height: 2px;background: #fff;bottom: 0;transition: all 0.3s;}
-.navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .nav-link:focus{color: #fff;}
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover{color: #fff;}
 .navbar-light .navbar-nav .nav-link:hover:before{width: 100%;}
 .navbar-expand-lg .navbar-nav .nav-link {padding-right: 1rem;padding-left: 1rem;padding-top: 1.5rem;}
 .navbar-nav li{margin-right: 15px;}

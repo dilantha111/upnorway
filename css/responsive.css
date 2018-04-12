@@ -11,6 +11,8 @@
 	.exp_widget .exp_dtl h5 {font-size: 13px; display: block;}
 	.exp_widget .exp_dtl p{font-size: 11px;}
 	.oslo {right: 204px;top: 272px;}
+	.team_dtl {padding: 20px 20px;}
+	.team_dtl p{margin-bottom: 20px;}
 }
 @media (min-width: 1200px){
 .container {max-width: 1200px;}
@@ -46,6 +48,9 @@
 	.included button{width: 275px;}
 	.oslo {right: 60px;top: 310px;}
 	.main_journey_wraper{background-size: cover;}
+	.team_dtl p{font-size: 14px;}
+	.destination_wrap .destination_dtl{padding: 20px 20px;}
+	.destination_wrap .destination_dtl h3{font-size: 18px;}
 }
 @media(max-width: 1024px){
 	.wizard_body {padding-top: 20px;}
@@ -135,9 +140,7 @@
 	.interested_in .img_wrap {width: 100px;height: 80px;}
 	.interested_in .interest_kind strong {font-size: 14px;}
 	.navbar-nav{background: rgba(255,255,255,0.9);margin-top: 20px; border-radius:4px; color:#232323; box-shadow: 0px 15px 18px rgba(0, 0, 0, 0.7);}
-	.navbar-light .navbar-nav .nav-link{
-		color:#232323;
-	}
+	.navbar-light .navbar-nav .nav-link{color:#232323;}
 	.navbar-expand-lg .navbar-nav li:last-child{padding-bottom: 1.5rem;}
 	.journey_dtl h4{font-size: 16px;}
 	.social_icon-nav li{float: left; width:25%; text-align: center; margin:0; padding:0;}
@@ -173,14 +176,13 @@
 	.journey_map {margin-bottom: 50px;margin-top: 60px;}
 	.oslo{display: none;}
 
-	.destination-info{
-		padding-top:40px;
-	}
-	
-	.arrival-destination{
-		top: -276px;
-		right: 6%;
-	}
+	.destination-info{padding-top:40px;}
+	.arrival-destination{top: -276px;right: 6%;}
+	.navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .nav-link:focus{color: #347f85;}
+	.about_get_started .img_wrap{position: static;margin-bottom: 50px;}
+	.about_get_started .reverse_direction{flex-direction: column-reverse;margin-bottom: 90px;}
+	.text_wrap.welcome {padding-top: 20px;}
+	.about_get_started .text_wrap button{margin-top: 10px;}
 }
 
 @media(max-width: 767px){
@@ -243,9 +245,9 @@
 	.not_find_exactly_bg .red_bx{margin-top: 40px;}
 	.magic_map{margin-top: 40px;}
 	.location_bx{left: 0;right: 0;bottom: 20px;width: 90%;display: block;margin:auto;}
-
-
-
+	.team_dtl{min-height: 210px;}
+	.team_dtl.just_name {min-height: 40px;bottom: -30px;}
+	.destination_wrap{margin-bottom: 170px;}
 
 	}
 
@@ -308,8 +310,8 @@
 	.add_on ul li{padding:10px 15px;}
 	.mobile-card-date{margin-top:0 !important;}
 	.experience_slider {max-width: 200px;}
-	.experience_slider .owl-nav button.owl-prev{left: -50px}
-	.experience_slider .owl-nav button.owl-next{right: -50px}
+	.experience_slider .owl-nav button.owl-prev{left: -35px}
+	.experience_slider .owl-nav button.owl-next{right: -35px}
 	.experience-packages .days-show{bottom:-15px;}
 	.experience-packages .favourite_jouney_bx{margin-bottom:0;}
 	.not_find_exactly{margin:30px 0 0 0;}
@@ -336,7 +338,7 @@
 		background: none;
 		padding-top:100px;
 	}
-
+	.up-guide-slider{margin-top: -90px;}
 	}
 
 @media(min-width: 1600px) and (max-width: 1999px){

@@ -1,0 +1,17 @@
+.about-us-bg{background: url(../images/about-us-bg.jpg) no-repeat center;background-size: cover;min-height: 725px;}
+.our_story{text-transform: uppercase;font-size: 13px;font-weight: 600;}
+.about_get_started .text_wrap p{color: #242424;font-size: 16px;font-weight: 500;text-align: justify;line-height: 30px;}
+.about_get_started .text_wrap button{text-transform: uppercase;width: 155px;height: 55px;font-size: 16px !important;font-weight: 500;margin-top: 40px;}
+.about_get_started .img_wrap{border:10px solid #fff;box-shadow: 22px 22px 31px rgba(218, 218, 218, 0.5);position: relative;top: -220px;}
+.text_wrap.welcome {padding-top: 140px;}
+.text_wrap.welcome h3{font-size: 26px;color: #242424;margin-bottom: 20px;}
+.our_team .gn_black_heading:before{height: 2px;}
+.team_member{margin-bottom: 200px;}
+.team_member .img_wrap img{width: 100%;}
+.team_member{position: relative;}
+.team_dtl{background: #fff;padding: 30px 35px;box-shadow: 0 0 26px rgba(218, 218, 218, 0.7);position: absolute;bottom: -115px;right: 0;width: 90%;z-index: 999;min-height: 285px;}
+.team_dtl.just_name{min-height: 115px;display: flex;flex-direction: column;justify-content: center;bottom: -60px;}
+.team_dtl h4{font-size: 18px;font-weight: bold;color: #484848;text-transform: uppercase;}
+.team_dtl p{color: #484848;font-size: 16px;font-weight: 500;text-align: justify;margin-bottom: 30px;}
+.team_dtl h5{font-size: 15px;color: #347f85;text-transform: uppercase;font-weight: 700;}
+.team_dtl span{font-size: 15px;color: #347f85;font-weight: 700;}

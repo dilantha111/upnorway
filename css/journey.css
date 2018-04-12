@@ -1,11 +1,5 @@
-.journey-type{
-   background: url(../images/journey_bg.jpg) no-repeat center;background-size: cover;
-   min-height: 725px;
-}
-.journey-containter{
-    background: url('../images/page_bg.png') no-repeat center top;background-size: contain;
-    padding-top:400px;
-}
+.journey-type{background: url(../images/journey_bg.jpg) no-repeat center;background-size: cover;min-height: 725px;}
+.journey-containter{background: url('../images/page_bg.png') no-repeat center top;background-size: contain;padding-top:400px;}
 .journery_txt h5{font-size: 12px;}
 .journery_txt p{font-size: 16px;font-weight: 400;}
 .Gn_Heading{font-size: 26px;font-weight: 600;color: #111111;text-transform: uppercase;}
@@ -88,3 +82,4 @@
     padding:50px 0 0 0;
 
 }
+.journey_img_wrap.right_align{text-align: right;}
