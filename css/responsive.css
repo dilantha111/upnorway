@@ -183,6 +183,15 @@
 	.about_get_started .reverse_direction{flex-direction: column-reverse;margin-bottom: 90px;}
 	.text_wrap.welcome {padding-top: 20px;}
 	.about_get_started .text_wrap button{margin-top: 10px;}
+	.gn_tabs li{
+		margin-right:20px;
+	}
+	.admin-logo{
+		top:10px;
+	}
+	.site-brand{
+		width:100px;
+	}
 }
 
 @media(max-width: 767px){
@@ -339,6 +348,13 @@
 		padding-top:100px;
 	}
 	.up-guide-slider{margin-top: -90px;}
+	.admin-logo{
+		position: relative;
+	
+	}
+	.site-brand{
+		margin-bottom:0;
+	}
 	}
 
 @media(min-width: 1600px) and (max-width: 1999px){
