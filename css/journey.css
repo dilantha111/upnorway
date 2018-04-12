@@ -48,7 +48,7 @@
 .journey_sec_one img.img_2{position: absolute;right: 50px;bottom: -60px;}
 .journey_img_wrap img.img_2{border:12px solid #fff;box-shadow: 38px 38px 59px rgba(0, 0, 0, .1);}
 .journey_sec_tow .text_wrap{margin-top: 90px;}
-.journey_sec_tow img.img_2{position: absolute;left: 25px;top: 130px;}
+.journey_sec_tow img.img_2{position: absolute;left: 25px;top: 300px;}
 .journey_sec_third .text_wrap{margin-top: 125px;}
 .journey_sec_third img.img_2{position: absolute;right: 50px;top: 20px;}
 .journey_sec_four .text_wrap{margin-top: 125px;}
@@ -82,4 +82,11 @@
     padding:50px 0 0 0;
 
 }
-.journey_img_wrap.right_align{text-align: right;}
+
+.img-left{
+    text-align: left;
+
+}
+.img-right{
+    text-align: right;
+}
