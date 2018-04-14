@@ -21,16 +21,3 @@
 }
 .theme-green{color: #347f85 !important;}
 .theme-red{color:#c1493d !important;}
-.site-brand {
-    width:140px;
-    margin-bottom:20px
-    }
-.block{
-    display: block;
-}
-.inline{
-    display: inline-block;
-}
-.relative{
-    position:relative;
-}
