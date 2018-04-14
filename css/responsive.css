@@ -13,6 +13,11 @@
 	.oslo {right: 204px;top: 272px;}
 	.team_dtl {padding: 20px 20px;}
 	.team_dtl p{margin-bottom: 20px;}
+	.Up_Guide_SecTwo .upguide_text_wrap {padding-left: 165px;}
+	.Up_Guide_SecFour .upguide_text_wrap {padding-left: 50px;}
+	.upguide_text_wrap .gn_black_heading {font-size: 24px;}
+	.upguide_text_wrap p {font-size: 14px;}
+
 }
 @media (min-width: 1200px){
 .container {max-width: 1200px;}
@@ -51,6 +56,12 @@
 	.team_dtl p{font-size: 14px;}
 	.destination_wrap .destination_dtl{padding: 20px 20px;}
 	.destination_wrap .destination_dtl h3{font-size: 18px;}
+	.Up_Guide_SecOne img.img_2{position: static;margin-top: 10px;}
+	.Up_Guide_SecThree img.img_2{position: static;margin-top: 10px;}
+	.Up_Guide_SecFour .upguide_text_wrap{margin-top: 0;padding-left: 0;}
+	.Up_Guide_SecTwo img.img_2{position: static;margin-top: 10px;}
+	.Up_Guide_SecTwo .upguide_text_wrap{padding-left: 0;}
+	.Up_Guide_SecOne .upguide_img_wrap{top: 0;}
 }
 @media(max-width: 1024px){
 	.wizard_body {padding-top: 20px;}
@@ -183,6 +194,10 @@
 	.about_get_started .reverse_direction{flex-direction: column-reverse;margin-bottom: 90px;}
 	.text_wrap.welcome {padding-top: 20px;}
 	.about_get_started .text_wrap button{margin-top: 10px;}
+	.Up_Guide_SecOne .upguide_text_wrap{max-width: 100%;}
+	.reverse_direction.Up-Guide{flex-direction: column-reverse;}
+	.upguide_img_wrap img.img_2{display: none;}
+	.upguide_img_wrap img.img_1{margin-bottom: 30px;}
 }
 
 @media(max-width: 767px){
@@ -340,6 +355,7 @@
 	}
 	.up-guide-slider{margin-top: -90px;}
 	}
+	.upguide_text_wrap .gn_black_heading{font-size: 18px;}
 
 @media(min-width: 1600px) and (max-width: 1999px){
 	.container{
