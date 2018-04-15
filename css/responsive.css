@@ -17,7 +17,11 @@
 	.Up_Guide_SecFour .upguide_text_wrap {padding-left: 50px;}
 	.upguide_text_wrap .gn_black_heading {font-size: 24px;}
 	.upguide_text_wrap p {font-size: 14px;}
-
+	.tons_rock_SecFour .tons_rock_text_wrap {padding-left: 190px;}
+	.tons_rock_SecThree .tons_rock_img_wrap img.img_2{left: -55px;}
+	.other_page_SecFour .other_page_text_wrap{padding-left: 150px;}
+	.other_page_SecSix .other_page_text_wrap{padding-left: 150px;}
+	.other_page_SecFive .other_page_img_wrap img.img_2{left: -100px;}
 }
 @media (min-width: 1200px){
 .container {max-width: 1200px;}
@@ -62,6 +66,19 @@
 	.Up_Guide_SecTwo img.img_2{position: static;margin-top: 10px;}
 	.Up_Guide_SecTwo .upguide_text_wrap{padding-left: 0;}
 	.Up_Guide_SecOne .upguide_img_wrap{top: 0;}
+	.tons_rock_SecOne .tons_rock_img_wrap img.img_2{position: static;}
+	.tons_rock_SecThree .tons_rock_img_wrap img.img_2{display: none;}
+	.tons_rock_SecFour .tons_rock_img_wrap img.img_2{display: none;}
+	.tons_rock_SecFour .tons_rock_text_wrap{padding-left: 0;}
+	.bottom_banner{margin-top: 70px;}
+	.tons_rock_SecFour{margin-top: 0;}
+	.other_page_SecFour .other_page_img_wrap img.img_2{display: none;}
+	.other_page_SecFour .other_page_text_wrap {padding-left: 0;}
+	.other_page_SecFive .other_page_img_wrap img.img_2{display: none;}
+	.other_page_SecFive {margin-top: 0;}
+	.other_page_SecSix{margin-top: 0;}
+	.other_page_SecSix .other_page_img_wrap img.img_2{display: none;}
+	.other_page_SecSix .other_page_text_wrap{padding-left: 0;}
 }
 @media(max-width: 1024px){
 	.wizard_body {padding-top: 20px;}
@@ -198,6 +215,19 @@
 	.reverse_direction.Up-Guide{flex-direction: column-reverse;}
 	.upguide_img_wrap img.img_2{display: none;}
 	.upguide_img_wrap img.img_1{margin-bottom: 30px;}
+	.tons_rock_img_wrap.right_align {text-align: left;}
+	.tons_rock_img_wrap {position: static;}
+	.tons_rock_SecOne .tons_rock_img_wrap img.img_2{display: none;}
+	.tons_rock_img_wrap{margin-bottom: 30px;}
+	.tons_rock_SecThree .reverse_direction{flex-direction: column-reverse;}
+	.bottom_banner{padding: 50px 20px;}
+	.partner_bx_wrap .details{padding: 15px;min-width: 270px;}
+	.other_page_SecOne .reverse_direction{flex-direction: column-reverse;}
+	.other_page_SecThree .reverse_direction{flex-direction: column-reverse;}
+	.other_page_img_wrap img.img_2{margin-bottom: 30px;}
+	.other_page_img_wrap img.img_1{margin-bottom: 30px;}
+	.other_page_SecFive .other_page_text_wrap{max-width: 100%;}
+	.other_page_SecFive .reverse_direction{flex-direction: column-reverse;}
 }
 
 @media(max-width: 767px){
@@ -218,7 +248,7 @@
 	.hotel_cycling_content{margin-bottom: 30px;}
 	/* .hotel_cycling {margin-left: 115px;} */
 	.gn_black_heading:before{left: 0;}
-	section {padding-top: 5px;padding-bottom: 40px;}
+	section {/* padding-top: 5px; */padding-bottom: 40px;}
 	.owl-carousel .owl-item img{display: none;}
 	.slide_inner{padding: 0;}
 	.slide_text_box{position: relative; margin-bottom: 15px;}
@@ -263,7 +293,10 @@
 	.team_dtl{min-height: 210px;}
 	.team_dtl.just_name {min-height: 40px;bottom: -30px;}
 	.destination_wrap{margin-bottom: 170px;}
-
+	.bottom_banner h4{font-size: 20px;}
+	.partner_bx_wrap .details p{font-size: 16px;}
+	.partner_bx_wrap .details h3{font-size: 24px;}
+	.partner_bx_wrap .partner_bx_inner{margin-bottom: 130px;}
 	}
 
 @media(max-width: 655px){
@@ -354,8 +387,8 @@
 		padding-top:100px;
 	}
 	.up-guide-slider{margin-top: -90px;}
-	}
 	.upguide_text_wrap .gn_black_heading{font-size: 18px;}
+	}
 
 @media(min-width: 1600px) and (max-width: 1999px){
 	.container{
