@@ -2,7 +2,6 @@
    background: url(../images/up-guides-main.jpg) no-repeat center;background-size: cover;
    min-height: 725px;
 }
-.up_guide .para{max-width: 100%;}
 .destination_main_wrap{margin-top: 80px;}
 .destination_wrap{position: relative;margin-bottom: 220px;}
 .destination_wrap .img_wrap img{width: 100%;}

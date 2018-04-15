@@ -9,12 +9,14 @@
 .tons_rock_SecOne .tons_rock_img_wrap{top: -200px;}
 .tons_rock_SecOne .tons_rock_img_wrap img.img_1 {border: 12px solid #fff;box-shadow: 38px 38px 59px rgba(0, 0, 0, .1);}
 .tons_rock_SecOne .tons_rock_img_wrap img.img_2 {position: absolute;bottom: 70px;left: -40px;}
-.tons_rock_SecOne .tons_rock_text_wrap{max-width: 520px;}
-.tons_rock_SecThree .tons_rock_img_wrap img.img_2 {position: absolute;bottom: -110px;left: -140px;}
+
+.tons_rock_text_wrap{max-width: 480px;}
+
+.tons_rock_SecThree .tons_rock_img_wrap img.img_2 {position: absolute;bottom: -10px;left: -140px;}
 .tons_rock_SecThree .tons_rock_text_wrap {max-width: 520px;}
 .tons_rock_SecFour{margin-top: 120px;}
 .tons_rock_SecFour .tons_rock_img_wrap img.img_2 {position: absolute;bottom: -90px;right: -175px;z-index: 99;}
-.tons_rock_SecFour .tons_rock_text_wrap{padding-left: 300px;}
+.tons_rock_SecFour .tons_rock_text_wrap{padding-left: 300px; max-width: 100%;}
 .bottom_banner{background: url('../images/tons-rock-bottom.jpg') no-repeat center;background-size: cover;min-height: 327px;color: #fff;padding: 90px 75px;border-radius: 5px;margin-top: 230px;margin-bottom: 165px;}
 .bottom_banner p{font-size: 16px;font-weight: 300;max-width: 710px;}
 .bottom_banner h4{font-size: 24px;color: #94d4d9 !important;font-weight: 500;margin: 30px 0;}
