@@ -77,6 +77,11 @@ textarea{max-width: 100%;height: auto !important;}
 hr{margin:0;}
 img{max-width: 100%;}
 
+header{
+    background: -moz-linear-gradient(top, rgba(0,0,0,0.65) 0%, rgba(0,0,0,0) 100%); 
+    background: -webkit-linear-gradient(top, rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%); 
+    background: linear-gradient(to bottom, rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%);
+}
 
 *:focus{
     outline: none;
@@ -87,7 +92,7 @@ img{max-width: 100%;}
 .mrg_tp_10{margin-top: 10px;}
 
 .navbar-light .navbar-toggler {color: #fff}
-.top_wrapper{background: url('../images/TopHome.jpg') no-repeat center;background-size: cover;min-height: 725px;}
+.top_wrapper{background: url('../images/TopHome.jpg') no-repeat center;background-size: cover;min-height: 680px;}
 .navbar.navbar-expand-lg.navbar-light.bg-faded{padding: 50px 0 0 0;}
 .navbar-light .navbar-nav .nav-link {color: #fff;font-size: 14px;font-weight: 300;text-transform: uppercase;position: relative;}
 .navbar-light .navbar-nav .nav-link:before{content: "";position: absolute;left: 0;width: 0;height: 2px;background: #fff;bottom: 0;transition: all 0.3s;}
@@ -97,10 +102,10 @@ img{max-width: 100%;}
 .navbar-nav li{margin-right: 15px;}
 .navbar-nav li:last-child{margin-right: 0;}
 .TopHome_txt{color: #fff;max-width: 725px;margin-top: 120px;}
-.TopHome_txt h2{font-size: 28px;font-weight: 600;position: relative;text-transform: uppercase; margin-bottom: 70px;}
+.TopHome_txt h2{font-size: 28px;font-weight: 600;position: relative;text-transform: uppercase; margin-bottom: 70px;max-width: 300px;}
 .TopHome_txt h2:before{content: "";position: absolute;height: 3px;width: 85px;background: #fff;bottom: -38px;left: 0;}
-.TopHome_txt p{color: #fff;line-height: 30px;margin-bottom: 30px;}
-.para{font-size: 16px;font-weight: 300; max-width:400px;}
+.TopHome_txt p{color: #fff;line-height: 27px;margin-bottom: 30px;}
+.para{font-size: 16px;font-weight: 300; max-width:600px;}
 .generic_btn{min-width: 155px;min-height: 55px;background: #fff;text-transform: uppercase;font-size: 14px;color: #c1493d;font-weight: 600;transition: all 0.3s;}
 .generic_btn:hover{color: #fff;background: #c1493d;}
 .gn_green_heading{color: #347f85;font-size: 14px;font-weight: 500;text-transform: uppercase;}
@@ -110,7 +115,7 @@ section{padding-top: 70px;padding-bottom: 70px;}
 .cycling_img{position: relative;text-align: right;}
 .cycling_img .img_2{position: absolute;bottom: -200px;left: 0;z-index: 999;}
 .cycling_img .img_3{position: absolute;bottom: -225px;left: 430px;}
-.generic_para{font-size: 16px;font-weight: 400;}
+.generic_para{font-size: 16px;font-weight: 400;line-height: 27px;}
 .price_per p{margin-bottom: 0;font-weight: 600;}
 .price_per strong{font-size: 20px;}
 .generic_button{box-shadow: -1px 8px 20px 0px rgba(32,37,58,0.1);}
@@ -210,7 +215,7 @@ section{padding-top: 70px;padding-bottom: 70px;}
 .bottom_logos-wrap .line{display: none;width: 55%;height: 1px;background: #484848;}
 .slider .owl-nav button{font-size: 30px !important;color: #232323 !important;}
 .slider .owl-next{margin-left: 30px !important;}
-.owl-theme .owl-nav [class*=owl-]:hover {background: none;color: #cbcfd5;text-decoration: none;}
+.owl-theme .owl-nav [class*=owl-]:hover {background: none !important;color: #357e84 !important;text-decoration: none;}
 /* .why_travel h2{margin-bottom: 0;} */
 
 .mt-120{margin-top: 120px;}

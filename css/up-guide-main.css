@@ -1,7 +1,8 @@
 .up-guide-main-bg{
    background: url(../images/up-guides-main.jpg) no-repeat center;background-size: cover;
-   min-height: 725px;
+   min-height: 680px;
 }
+.up_guide_main h2{max-width: 100%;}
 .destination_main_wrap{margin-top: 80px;}
 .destination_wrap{position: relative;margin-bottom: 220px;}
 .destination_wrap .img_wrap img{width: 100%;}

@@ -143,6 +143,7 @@
 }
 
 @media(max-width: 991px){
+	.pt_0{padding-top: 70px;}
 	.f1-step p{font-size: 12px;}
 	.f1-steps {overflow-x: auto;white-space: nowrap;}
 	.f1-step {position: relative;float: none; width: 90px;display: inline-block;}
@@ -189,7 +190,8 @@
 	.journey_img_wrap img.img_2{display: none;}
 	.pad_lf_120{padding-left: 0;}
 	.m-t-145 {margin-top: 30px;margin-bottom: 60px;}
-	.m-b-450 {margin-bottom: 0;}
+	.m-b-450 {margin-bottom: 80px;}
+	.Gn_Para{padding: 0;}
 	.journey_sec_tow .row{flex-direction: column-reverse;}
 	.journey_sec_four .row{flex-direction: column-reverse;}
 	.journey_sec_six .row{flex-direction: column-reverse;}
@@ -201,7 +203,7 @@
 	.journey_sec_six .text_wrap {margin-top: 30px;margin-bottom: 60px}
 	.journey_sec_seventh .text_wrap {margin-top: 30px;}
 	.journey_sec_seventh {margin-bottom: 90px;}
-	.journey_map {margin-bottom: 50px;margin-top: 60px;}
+	.journey_map {margin-bottom: 50px;margin-top: 0;}
 	.oslo{display: none;}
 
 	.destination-info{padding-top:40px;}
@@ -214,6 +216,8 @@
 	.Up_Guide_SecOne .upguide_text_wrap{max-width: 100%;}
 	.reverse_direction.Up-Guide{flex-direction: column-reverse;}
 	.upguide_img_wrap img.img_2{display: none;}
+	.tons_rock_img_wrap img.img_2{display: block;}
+	.partner_img_wrap img.img_2{display: block;}
 	.upguide_img_wrap img.img_1{margin-bottom: 30px;}
 	.tons_rock_img_wrap.right_align {text-align: left;}
 	.tons_rock_img_wrap {position: static;}
@@ -228,6 +232,10 @@
 	.other_page_img_wrap img.img_1{margin-bottom: 30px;}
 	.other_page_SecFive .other_page_text_wrap{max-width: 100%;}
 	.other_page_SecFive .reverse_direction{flex-direction: column-reverse;}
+	.about_get_started .text_wrap p{padding-right: 0;}
+	.team_dtl{min-height: 300px;}
+	.m-b-450.m_b_0{margin-bottom: 0;}
+	.tons_rock_SecThree p{padding-right: 0;}
 }
 
 @media(max-width: 767px){
@@ -297,6 +305,7 @@
 	.partner_bx_wrap .details p{font-size: 16px;}
 	.partner_bx_wrap .details h3{font-size: 24px;}
 	.partner_bx_wrap .partner_bx_inner{margin-bottom: 130px;}
+	.team_member.tm_member{margin-bottom: 120px;}
 	}
 
 @media(max-width: 655px){
@@ -339,7 +348,7 @@
 	.bottom_logos-wrap img{margin-right: 15px;}
 	.bottom_bar .left_side img{display: block;margin-bottom: 10px;}
 	.why_travel .owl-carousel .owl-nav{display: block !important; font-size:30px;}
-	.why_travel .owl-carousel .owl-nav button{color: #fff;position: absolute;top: 50%;height: 30px;width: 30px;border-radius: 50%;text-align: center;line-height: 30px;transition: all 0.3s;}
+	.why_travel .owl-carousel .owl-nav button{color: #fff;position: absolute;top: 50%;height: 30px;width: 30px;border-radius: 50%;text-align: center;line-height: 27px;transition: all 0.3s;}
 	.why_travel .owl-carousel .owl-nav button:hover{color: #fff;}
 	.why_travel .owl-carousel .owl-nav .owl-prev{left: 0;}
 	.why_travel .owl-carousel .owl-nav .owl-next{right: 0;}
@@ -388,6 +397,15 @@
 	}
 	.up-guide-slider{margin-top: -90px;}
 	.upguide_text_wrap .gn_black_heading{font-size: 18px;}
+	.about-us-bg{min-height: 450px;}
+	.experience-bg{min-height: 450px;}
+	.journey-type{min-height: 450px;}
+	.other-page-bg{min-height: 450px;}
+	.partner-bg{min-height: 450px;}
+	.tons-rock-bg{min-height: 450px;}
+	.up-guide-bg{min-height: 450px;}
+	.experience_bx_wrap{margin-top: 20px;}
+	.bottom_banner p{font-size: 17px;}
 	}
 
 @media(min-width: 1600px) and (max-width: 1999px){
