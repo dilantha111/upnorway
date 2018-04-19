@@ -413,6 +413,9 @@
 	.second-img-left{
 		display: none
 	}
+	.second-img-left-big{
+		display:none;
+	}
 	.post-main-img img{
 		width:100%;
 		margin-bottom: 30px;
