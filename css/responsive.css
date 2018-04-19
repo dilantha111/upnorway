@@ -22,6 +22,7 @@
 	.other_page_SecFour .other_page_text_wrap{padding-left: 150px;}
 	.other_page_SecSix .other_page_text_wrap{padding-left: 150px;}
 	.other_page_SecFive .other_page_img_wrap img.img_2{left: -100px;}
+	.Journey_Slider img{height: 180px;}
 }
 @media (min-width: 1200px){
 .container {max-width: 1200px;}
@@ -190,11 +191,11 @@
 	.journey_img_wrap img.img_2{display: none;}
 	.pad_lf_120{padding-left: 0;}
 	.m-t-145 {margin-top: 30px;margin-bottom: 60px;}
-	.m-b-450 {margin-bottom: 80px;}
+	.m-b-450 {margin-bottom: 110px;}
 	.Gn_Para{padding: 0;}
 	.journey_sec_tow .row{flex-direction: column-reverse;}
-	.journey_sec_four .row{flex-direction: column-reverse;}
-	.journey_sec_six .row{flex-direction: column-reverse;}
+	.journey_sec_five .row{flex-direction: column-reverse;}
+	/* .journey_sec_six .row{flex-direction: column-reverse;} */
 	.journey_sec_seventh .row{flex-direction: column-reverse;}
 	.journey_sec_tow .text_wrap {margin-top: 30px;margin-bottom: 60px}
 	.journey_sec_third .text_wrap {margin-top: 30px;margin-bottom: 60px}
@@ -206,7 +207,7 @@
 	.journey_map {margin-bottom: 50px;margin-top: 0;}
 	.oslo{display: none;}
 
-	.destination-info{padding-top:40px;}
+	.destination-info{padding-top:40px;padding-left: 0;}
 	.arrival-destination{top: -276px;right: 6%;}
 	.navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .nav-link:focus{color: #347f85;}
 	.about_get_started .img_wrap{position: static;margin-bottom: 50px;}
@@ -263,6 +264,14 @@
 	.merge-inheader{
 		margin-top:0;
 	}
+	.Journey_Head.right_silde .Sub_heading:before{left: 0;}
+	.Journey_Head.right_silde {left: 0;padding-left: 0;}
+	.Journey_Head.left_silde {left: 0;padding-left: 0;}
+	.Sub_heading:before{left: 0;}
+	.tons_rock2_text_wrap.pr{padding-right: 0;}
+	.tons_rock2_text_wrap.pl{padding-left: 0;}
+	.Reverse_Direction{flex-direction: column-reverse;}
+	.tons_rock2_text_wrap.last{margin-bottom: 70px;}
 }
 
 @media(max-width: 767px){
@@ -285,6 +294,7 @@
 	.gn_black_heading:before{left: 0;}
 	section {/* padding-top: 5px; */padding-bottom: 40px;}
 	.owl-carousel .owl-item img{display: none;}
+	.Journey_Slider .owl-carousel .owl-item img{display: block;}
 	.slide_inner{padding: 0;}
 	.slide_text_box{position: relative; margin-bottom: 15px;}
 	.owl-nav{bottom: -70px;}

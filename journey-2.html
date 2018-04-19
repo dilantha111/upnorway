@@ -1,0 +1,750 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>UpNorway</title>
+    <!--Fontawesome-->
+    <link rel="stylesheet" href="fontawesome/css/fontawesome-pro-core.css">
+    <link rel="stylesheet" href="fontawesome/css/fontawesome-pro-solid.css">
+    <link rel="stylesheet" href="fontawesome/css/fontawesome-pro-regular.css">
+    <link rel="stylesheet" href="fontawesome/css/fontawesome-pro-light.css">
+    <link rel="stylesheet" href="fontawesome/css/fontawesome-pro-brands.css">
+  
+    <!--css-->
+    <link rel="stylesheet" href="css/parent.css">
+  
+</head>
+<body>   
+
+<div class="journey-type">
+  <header>
+    <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light bg-faded" data-toggle="affix">
+            <a class="navbar-brand" href="index.html">
+              <img src="images/logo.svg" class="site-brand">
+            </a>
+          <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation"> -->
+            <button class="navicon navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <div class="navicon__holder">
+                  <span style="display:inline-block">MENU</span>
+                  <div style="display:inline-block">
+                    <div class="navicon__line"></div>
+                    <div class="navicon__line"></div>
+                    <div class="navicon__line"></div>
+                  </div>
+                </div>
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div id="navbarNavDropdown" class="navbar-collapse collapse justify-content-end clearfix">
+              <ul class="navbar-nav">
+                  <li class="nav-item">
+                      <a class="nav-link" href="#">START HERE</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="#">JOURNEYS</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="#">ABOUT</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="#">UPGUIDES</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="#">REVIEWS</a>
+                  </li>
+                  <ul class="social_icon-nav">
+                    <li>
+                      <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    </li>
+                    <li>
+                      <a href="#"><i class="fab fa-twitter"></i></a>
+                    </li>
+                    <li>
+                      <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </li>
+                    <li>
+                      <a href="#"><i class="fab fa-pinterest-p"></i></a>
+                    </li>
+                  </ul>
+              </ul>
+            </div>
+        </nav>
+    </div>  
+  </header>
+
+  <div class="container">
+    <div class="TopHome_txt journery_txt wow fadeIn">
+      <h5>OSLO</h5>
+      <h2>Bergen Self Drive via Jotunheimen </h2>
+      <p class="para">Explore the home of the trolls, spectacular nature and impressive 
+      artistry in mountain and fjord landscape.</p>
+    </div>
+  </div>
+
+  
+
+<!-- Modal Book Now -->
+<div class="modal fade" id="book_now" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle">Book Now</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <form class="other_info enquire_form">
+          <div class="row">
+            <div class="col-md-6 col-lg-6">
+              <div class="form-group">
+                <input type="text" required="required">
+                <label class="control-label" for="input">First Name</label><i class="bar"></i>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-6">
+              <div class="form-group">
+                <input type="text" required="required">
+                <label class="control-label" for="input">Last Name</label><i class="bar"></i>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-6">
+              <div class="form-group">
+                <input type="text" required="required">
+                <label class="control-label" for="input">Email</label><i class="bar"></i>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-6">
+              <div class="form-group">
+                <input type="text" required="required">
+                <label class="control-label" for="input">Phone</label><i class="bar"></i>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-6">
+              <div class="form-group">
+                <input type="text" required="required">
+                <label class="control-label" for="input">Nationality</label><i class="bar"></i>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-6">
+              <div class="form-group">
+                <input type="text" required="required">
+                <label class="control-label" for="input">Number of Tickets</label><i class="bar"></i>
+              </div>
+            </div>
+            <div class="col-md-12 col-lg-12">
+              <div class="form-group">
+                <input type="text" required="required">
+                <label class="control-label" for="input">Comments</label><i class="bar"></i>
+              </div>
+            </div>  
+          </div>  
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+        <button type="button" class="btn green_btn">Pay Now</button>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+<div class="main_journey_wraper">
+    <div class="container">
+        <div class="experience_bx_wrap">
+          <div class="row">
+            <div class="col-md-12 col-lg-8 col-sm-12">
+              <div class="highlight">
+                <h2 class="Gn_Heading">Highlights​: </h2>
+                <p>This self-drive will take you along some of Norway's most stunning roads including some officially designated 
+                "​Norwegian Scenic Routes​" – enhanced with breathtaking examples of art and architecture. Experience the  contrasts between imposing mountains, colossal glaciers and flourishing fjords. Stay in small, charming, historic hotels with modern facilities and friendly service. Indulge in local regional specialities and learn about Norwegian food culture.</p>
+                <h2 class="Gn_Heading">Best for​: </h2>
+                <p>Hedonists who want to escape the noise and pace of Ubud and eat and sleep well</p>
+                <div class="row mrg_tp_50">
+                  <div class="col-lg-8 col-md-8 col-sm-8">
+                    <div class="days_wrap">
+                      <div class="Day_bx">
+                        <span>10</span>
+                        <p>days</p>
+                      </div>
+                      <div class="Day_dtl">
+                        <h5>Season</h5>
+                        <h3>March - May</h3>
+                        <p>Can be extended with a stay in Oslo and<br> 
+                        the Hanseatic town of Bergen.</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-4 col-md-4 col-sm-4">
+                    <div class="hightlight_price">
+                      <h5>Price</h5>
+                      <select class="theme-select">
+                        <option>€ 722</option>
+                        <option>€ 722</option>
+                        <option>€ 722</option>
+                      </select>
+                      <p>per person from:<br />
+                      *Rental car at additional cost if needed.</p>
+                    </div>  
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-12 col-lg-4 col-sm-12">
+              <div class="included">
+                <h2 class="Gn_Heading">Included​: </h2>
+                <ul>
+                  <li>
+                    <i class="fas fa-circle"></i>
+                    <span>Accommodation in twin room with breakfast<br>  
+                    and 3/4 course dinners in </span>
+                  </li>
+                  <li>
+                    <i class="fas fa-circle"></i>
+                    <span>Herangtunet Boutique Hotel​, ​Røisheim​, ​<br>
+                     Sognefjellshytta​, ​Walaker Hotel ​and ​<br>
+                     Store Ringheim​. </span>
+                  </li>
+                  <li>
+                    <i class="fas fa-circle"></i>
+                    <span>Guided glacier walk on Smørstabbreen<br> 
+                    (5–7 hrs), Up Digital Travel Guide.</span>
+                  </li>
+                </ul>
+                <div class="">
+                  <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#book_now">Book Now</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+  <section class="journey-containter">
+      <div style="position: relative;" class="container clearfix destination-ico">
+        <div class="arrival-destination"><i class="far fa-dot-circle"></i>
+          <span>OSLO</span><i class="fas fa-plane fa-rotate-90"></i></div>
+      </div>
+    <div class="container">
+      <div class="journey_sec_one">
+        <div class="row m-b-450">
+          <div class="col-md-12 col-lg-7 co-sm-12">
+            <div class="journey_img_wrap right_align img-left wow fadeIn">
+              <img class="img_1" src="images/journey_1.jpg">
+            </div>
+          </div>
+          <div class="col-md-12 col-lg-5 col-sm-12">
+            <div class=" wow fadeIn destination-info">
+              <div class="Journey_Head left_silde">
+                <h5 class="Gn_green_heading">DAY 1</h5>
+                <h2 class="Gn_black_heading">OSLO HEGGENES (210 KM)</h2>
+                <h4 class="Sub_heading">Easy start: Enjoy the Luxuries of Herangtunet</h4>
+              </div>  
+              <p class="generic_para Gn_Para">The drive time from Oslo to Herangunet Boutique Hotel in Heggenes is 
+              approximately 3 hours, but it's worth slowing down to sample local 
+              products along the way. Arriving in the early afternoon, you’ll have time 
+              to make the most of this warm, intimate forest hideaway. Relax with a 
+              local beer by the campfire, unwind in the wooden sauna, and enjoy the 
+              comforts of your individually designed room.
+              </p>
+              <div class="Journey_Slider">
+                <div class="owl-carousel journey_slider01 owl-theme">
+                  <div class="item">
+                    <img class="" src="images/journey_slide1.jpg">
+                  </div>
+                  <div class="item">
+                    <img class="" src="images/journey_slide01.jpg">
+                  </div>
+                  <div class="item">
+                    <img class="" src="images/journey_slide1.jpg">
+                  </div>
+                </div>
+              </div>
+            </div>  
+          </div>
+        </div>
+      </div>  
+
+      <div class="journey_sec_tow">
+        <div class="row m-b-450">
+          <div class="col-md-12 col-lg-5 col-sm-12">
+            <div class="wow fadeIn destination-info right_pad">
+              <div class="Journey_Head right_silde">
+                <h5 class="Gn_green_heading">DAY 2</h5>
+                <h2 class="Gn_black_heading">HEGGENES BØVERDALEN (145 KM)</h2>
+                <h4 class="Sub_heading">Scenic Route Valdresflye​ A Local Food El Dorado</h4>
+              </div>  
+              <p class="generic_para Gn_Para">Regardless of where you stop on the 50 km Scenic Route Valdresflye, you 
+              will not get far before it starts to feel like a proper expedition. The wide 
+              open landscape needs little human intervention, and the rest areas and 
+              artworks blend into the background and draw your attention to individual 
+              features. Next you will be taken into the Jotunheimen mountain area, 
+              legendary home of trolls. Stop in the National Park village of Lom to see 
+              the impressive Stave Church and try freshly baked cinnamon rolls at 
+              Norway's most charming bakery. A culinary treat awaits you at your home 
+              for tonight, ​Røisheim​.
+              </p>
+              <div class="Journey_Slider">
+                <div class="owl-carousel journey_slider02 owl-theme">
+                  <div class="item">
+                    <img class="" src="images/journey_slide2.jpg">
+                  </div>
+                  <div class="item">
+                    <img class="" src="images/journey_slide02.jpg">
+                  </div>
+                  <div class="item">
+                    <img class="" src="images/journey_slide2.jpg">
+                  </div>
+                </div>
+              </div>
+            </div>  
+          </div>
+          <div class="col-md-12 col-lg-7 co-sm-12">
+            <div class="journey_img_wrap right_align img-right wow fadeIn">
+              <img class="img_1" src="images/journey_2.jpg">
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="journey_sec_third">
+         <div class="row m-b-450">
+          <div class="col-md-12 col-lg-7 co-sm-12">
+            <div class="journey_img_wrap right_align img-left wow fadeIn">
+              <img class="img_1" src="images/journey_1.jpg">
+            </div>
+          </div>
+          <div class="col-md-12 col-lg-5 col-sm-12">
+            <div class=" wow fadeIn destination-info">
+              <div class="Journey_Head left_silde">
+                <h5 class="Gn_green_heading">DAY 3</h5>
+                <h2 class="Gn_black_heading">BØVERDALEN SOGNEFJELLET (50 KM)</h2>
+                <h4 class="Sub_heading">Scenic Route Sognefjellet & Glacier Walk</h4>
+              </div>  
+              <p class="generic_para Gn_Para">There are few stretches of road that provide such a dramatic and overpowering natural backdrop as the Scenic Route Sognefjellet. Get an early start and drive the 33 km to Sognefjellshytta, where a guide will be waiting to accompany you on a hike over the spectacular glacier Smørstabbreen. You will quickly find yourself in totally secluded wilderness, among visually stunning blue ice formations. Spend the night at Sognefjellshytta​ overlooking glaciers and the iconic Hurrungane mountains, and relax in an explorer atmosphere.
+              </p>
+              <div class="Journey_Slider">
+                <div class="owl-carousel journey_slider01 owl-theme">
+                  <div class="item">
+                    <img class="" src="images/journey_slide3.jpg">
+                  </div>
+                  <div class="item">
+                    <img class="" src="images/journey_slide03.jpg">
+                  </div>
+                  <div class="item">
+                    <img class="" src="images/journey_slide3.jpg">
+                  </div>
+                </div>
+              </div>
+            </div>  
+          </div>
+        </div>
+      </div>
+
+      <div class="journey_sec_four">
+        <div class="row m-b-450">
+          <div class="col-md-12 col-lg-7 co-sm-12">
+            <div class="journey_img_wrap right_align img-left wow fadeIn">
+              <img class="img_1" src="images/journey_4.jpg">
+            </div>
+          </div>
+          <div class="col-md-12 col-lg-5 col-sm-12">
+            <div class=" wow fadeIn destination-info">
+              <div class="Journey_Head left_silde">
+                <h5 class="Gn_green_heading">DAY 4</h5>
+                <h2 class="Gn_black_heading">SOGNEFJELLET SOLVORN (75 KM)</h2>
+                <h4 class="Sub_heading">From Mountains to Fjords</h4>
+              </div>  
+              <p class="generic_para Gn_Para">As your journey continues along Scenic Route Sognefjellet to Solvorn, you will descend into fjords where the clear water changes colour from green to blue, in harmony with the light and weather. There are plenty of photo stops along the way to ​Walaker Hotel​, in the small fruit-growing village of Solvorn. This is the oldest family-run hotel in Norway, with more than 370 years of history. The place is an experience on its own, and its lavish gardens are the perfect place to unwind after a day loaded with sensations. Guided gallery tour before a home-cooked dinner.
+              </p>
+              <div class="Journey_Slider">
+                <div class="owl-carousel journey_slider01 owl-theme">
+                  <div class="item">
+                    <img class="" src="images/journey_slide4.jpg">
+                  </div>
+                  <div class="item">
+                    <img class="" src="images/journey_slide4.jpg">
+                  </div>
+                  <div class="item">
+                    <img class="" src="images/journey_slide4.jpg">
+                  </div>
+                </div>
+              </div>
+            </div>  
+          </div>
+        </div>
+      </div>
+
+      <div class="journey_sec_five">
+        <div class="row m-b-450">
+          <div class="col-md-12 col-lg-5 col-sm-12">
+            <div class="wow fadeIn destination-info right_pad">
+              <div class="Journey_Head right_silde">
+                <h5 class="Gn_green_heading">DAY 5</h5>
+                <h2 class="Gn_black_heading">SOLVORN VOSS (150 KM)</h2>
+                <h4 class="Sub_heading">Orchards, Urnes Stave Church & Fjord Fiesta</h4>
+              </div>  
+              <p class="generic_para Gn_Para">Take the ferry across the fjord to admire the jewel that is Urnes Stave Church, before continuing on through the valley of Flåm. For some, Flåm could be worth an extra day's stop to ride the famous Flåm railway, cruise the Nærøy and Aurland fjords or visit Undredal, a village famous for its brown cheese. Continue on the breathtaking ​Scenic Route Aurlandsfjellet ​across the mountains, and – if you wish – take the looping detour through the world's longest car tunnel, just for fun. Dinner and accommodation at the charming ​Store Ringheim Gård​.
+              </p>
+            </div>  
+          </div>
+          <div class="col-md-12 col-lg-7 co-sm-12">
+            <div class="journey_img_wrap right_align img-right wow fadeIn">
+              <img class="img_1" src="images/journey_5.jpg">
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="journey_sec_six">
+        <div class="row m-b-450">
+          <div class="col-md-12 col-lg-7 co-sm-12">
+            <div class="journey_img_wrap right_align img-left wow fadeIn">
+              <img class="img_1" src="images/journey_6.jpg">
+            </div>
+          </div>
+          <div class="col-md-12 col-lg-5 col-sm-12">
+            <div class=" wow fadeIn destination-info">
+              <div class="Journey_Head left_silde">
+                <h5 class="Gn_green_heading">DAY 6</h5>
+                <h2 class="Gn_black_heading">VOSS BERGEN (105 KM)</h2>
+                <h4 class="Sub_heading">Morning Mountain Walk. Arrival in Bergen</h4>
+              </div>  
+              <p class="generic_para Gn_Para">Store Ringheim Gård is a great place to view traditional Norwegian
+architecture and folky rose painting, enjoy homemade mountain food. and relax in a peaceful setting. Take a walk in the peaceful surroundings. before travelling the last stretch of the journey to Bergen.Return to Oslo on a domestic plane, take an international flight from Bergen Airport, or spend an extra day or two in town – there's plenty to see and do.
+              </p>
+              <div class="Journey_Slider">
+                <div class="owl-carousel journey_slider01 owl-theme">
+                  <div class="item">
+                    <img class="" src="images/journey_slide5.jpg">
+                  </div>
+                  <div class="item">
+                    <img class="" src="images/journey_slide5.jpg">
+                  </div>
+                  <div class="item">
+                    <img class="" src="images/journey_slide5.jpg">
+                  </div>
+                </div>
+              </div>
+            </div>  
+          </div>
+        </div>
+      </div>    
+    </div>  
+  </section>
+</div>
+
+<section class="slider journey_slider">
+  <div class="container">
+    <div class="owl-carousel owl-one owl-theme">
+      <div class="item">
+        <div class="slide_inner">
+          <div class="slide_text_box">
+            <h5 class="gn_green_heading">Check out our reviews</h5>
+            <h2>Our travellers exclaim<br> 
+            "This is the way to travel".<br> 
+            We couldn't agree more.</h2>
+            <p class="descrip"><span>“</span>We will definitely book many more trips with Up 
+            Norway and will highly recommend this for 
+            anyone who loves traveling! We love it! <span>”</span></p>
+            <div class="btm_txt">
+              <strong>Amy _ Thea</strong>
+              <p>from Norway ADVENTURE<br>
+                March, 2017
+              </p>  
+            </div>  
+          </div>
+          <img src="images/journey_slide.jpg">
+        </div>  
+      </div>
+      <div class="item">
+        <div class="slide_inner">
+          <div class="slide_text_box">
+            <h5 class="gn_green_heading">Check out our reviews</h5>
+            <h2>Our travellers exclaim<br> 
+            "This is the way to travel".<br> 
+            We couldn't agree more.</h2>
+            <p class="descrip"><span>“</span>We will definitely book many more trips with Up 
+            Norway and will highly recommend this for 
+            anyone who loves traveling! We love it! <span>”</span></p>
+            <div class="btm_txt">
+              <strong>Amy _ Thea</strong>
+              <p>from Norway ADVENTURE<br>
+                March, 2017
+              </p>  
+            </div>  
+          </div>
+          <img src="images/slide01.jpg">
+        </div>  
+      </div>
+    </div>
+  </div>  
+</section>
+
+<section class="journey_map">
+  <div class="container">
+    <div class="map" style="background: url(images/map.jpg) no-repeat center;background-size: cover;min-height: 595px;">
+      <!-- <img src="images/map.jpg"> -->
+      <div class="location_bx">
+        <h5>Here we ARE</h5>
+        <h3>Our Location</h3>
+        <ul>
+          <li><i class="fas fa-map-marker-alt"></i> <span>Address First line here, detail<br>Second line goes, Here<br>Third will</span></li>
+          <li><i class="fas fa-plane"></i> <span>Oslo</span></li>
+          <li><i class="fas fa-clock"></i></i> <span>Time: 4.5 hours</span></li>
+        </ul>
+      </div>
+    </div>
+  </div>  
+</section>
+
+<div class="container">
+  <div class="journey_sec_seventh">
+    <div class="row">
+      <div class="col-md-12 col-lg-5 col-sm-12">
+        <div class="text_wrap wow fadeIn">
+          <h5 class="Gn_green_heading">ABOUT UPNORWAY</h5>
+          <h2 class="gn_black_heading">Insider Experiances for <br>the Modern Travel</h2>
+          <p class="generic_para Gn_Para">Store Ringheim Gård is a great place to view traditional Norwegian 
+            architecture and folky rose painting, enjoy homemade mountain food 
+            and relax in a peaceful setting. Take a walk in the peaceful surroundings 
+            before travelling the last stretch of the journey to Bergen.Return to Oslo 
+            on a domestic plane, take an international flight from Bergen Airport, or 
+            spend an extra day or two in town – there's plenty to see and do.
+          </p>
+        </div>  
+      </div>
+      <div class="col-md-12 col-lg-7 co-sm-12">
+        <div class="post-main-img align-right wow fadeIn">
+          <img class="img_1" src="images/journey_7.jpg">
+          <img class="second-img-left" src="images/journey_07.jpg">
+        </div>
+      </div>
+    </div>
+  </div>
+</div>  
+
+<footer class="footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 col-lg-3 col-sm-6">
+        <h3>the company</h3>
+        <ul>
+          <li>
+            <a href="#">About</a>
+          </li>
+          <li>
+            <a href="#">Our Team</a>
+          </li>
+          <li>
+            <a href="#">Our insiders</a>
+          </li>
+          <li>
+            <a href="#">Why travel Up</a>
+          </li>
+          <li>
+            <a href="#">Terms of use</a>
+          </li>
+        </ul>
+      </div>
+      <div class="col-md-6 col-lg-3 col-sm-6">
+        <h3>UP GUIDES</h3>
+        <ul>
+          <li>
+            <a href="#">Up Guide to Norway</a>
+          </li>
+          <li>
+            <a href="#">How to get here</a>
+          </li>
+          <li>
+            <a href="#">What to pack for Norway</a>
+          </li>
+          <li>
+            <a href="#">Travel Inspiration</a>
+          </li>
+          <li>
+            <a href="#">Become our partner</a>
+          </li>
+        </ul>
+      </div>
+      <div class="col-md-6 col-lg-3 col-sm-6">
+        <h3>CONTACT US</h3>
+        <ul>
+          <li>
+            <a href="#">Work with us</a>
+          </li>
+          <li>
+            <a href="#">Become a Partner</a>
+          </li>
+        </ul>
+        <ul class="social_icon">
+          <h3>CONNECT WITH US</h3>
+          <li>
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fab fa-pinterest-p"></i></a>
+          </li>
+        </ul>
+      </div>
+      <div class="col-md-6 col-lg-3 col-sm-6">
+        <h3>Sign up for weekly insider travel tips</h3>
+        <form class="footer_form">
+          <input type="text" class="form-control" placeholder="Email address" name="">
+          <a href="#" class="btn generic_btn">SIGN UP <i class="fal fa-long-arrow-right"></i></a>
+        </form>
+      </div>
+    </div> 
+    <div class="bottom_bar">
+      <div class="row">
+        <div class="col-md-5 sm-6 left_side">
+          <img src="images/home_bottom_logo.png">
+          <span> © 2018 Up Norway. All rights reserved. </span>
+        </div>
+        <div class="col-md-7 col-sm-12">
+          <div class="bottom_logos-wrap">
+            <img src="images/bottom_logo01.png">
+            <img src="images/bottom_logo02.png">
+            <img src="images/bottom_logo03.png">
+            <img src="images/bottom_logo04.png">
+            <div class="line"></div>
+          </div>  
+        </div>
+      </div>
+    </div> 
+  </div>
+</footer>
+  
+ <script type="text/javascript" src="js/jquery-2.2.4.min.js"></script>
+
+  <script defer src="fontawesome/js/packs/light.min.js"></script>
+  <script defer src="fontawesome/js/packs/regular.min.js"></script>
+  <script defer src="fontawesome/js/packs/solid.min.js"></script>
+  <script defer src="fontawesome/js/packs/brands.min.js"></script>
+  <script defer src="fontawesome/js/fontawesome.min.js"></script>
+
+ <script type="text/javascript" src="js/bootstrap.min.js"></script>
+ <script type="text/javascript" src="js/jquery.backstretch.min.js"></script>
+ <script type="text/javascript" src="js/owl.carousel.js"></script>
+ <script type="text/javascript" src="js/scripts.js"></script>
+
+ <script src="js/wow.min.js"></script>
+  <script>
+  new WOW().init();
+  </script>
+
+<script type="text/javascript">
+  $(".season_bx").mouseover(function(event) {
+    var currentId = $(this).attr('data-id');
+    //var currentSrc = $(this).children('img').attr('src');
+    //alert(currentSrc); 
+    $(".change_now").hide();
+    $(currentId).show();
+    //$("#weather_img").css("background-image",'url('+currentSrc+')');
+  });
+</script>
+
+<script>
+            $(document).ready(function() {
+              var owl = $('.owl-one');
+              owl.owlCarousel({
+                margin: 10,
+                nav: true,
+                loop: true,
+                dots:false,
+                responsive: {
+                  0: {
+                    items: 1
+                  },
+                  600: {
+                    items: 1
+                  },
+                  1000: {
+                    items: 1
+                  }
+                }
+              });
+               $( ".owl-prev").html('<i class="fa fa-chevron-left"></i>');
+               $( ".owl-next").html('<i class="fa fa-chevron-right"></i>');
+
+               var owl = $('.owl-two');
+              owl.owlCarousel({
+                margin: 10,
+                nav: true,
+                loop: true,
+                dots:false,
+                responsive: {
+                  0: {
+                    items: 1
+                  },
+                  767: {
+                    items: 3
+                  },
+                  1000: {
+                    items: 5
+                  },
+                }
+              });
+              $( ".owl-prev").html('<i class="fa fa-chevron-left"></i>');
+               $( ".owl-next").html('<i class="fa fa-chevron-right"></i>');
+
+
+                var owl = $('.journey_slider01');
+              owl.owlCarousel({
+                margin: 10,
+                nav: false,
+                loop: true,
+                dots:false,
+                stagePadding:50,
+                responsive: {
+                  0: {
+                    items: 1
+                  },
+                  767: {
+                    items: 2
+                  },
+                  1000: {
+                    items: 2
+                  },
+                }
+              });
+
+               var owl = $('.journey_slider02');
+              owl.owlCarousel({
+                margin: 10,
+                nav: false,
+                loop: true,
+                dots:false,
+                stagePadding:50,
+                responsive: {
+                  0: {
+                    items: 1
+                  },
+                  767: {
+                    items: 2
+                  },
+                  1000: {
+                    items: 2
+                  },
+                }
+              });
+            })
+          </script>
+          
+          <script type="text/javascript">
+            $('.navicon').click( function() {
+  $(this).toggleClass('navicon--toggle');
+})
+          </script>
+
+</body>
+</html>
