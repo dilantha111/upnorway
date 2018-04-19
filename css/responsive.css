@@ -236,6 +236,33 @@
 	.team_dtl{min-height: 300px;}
 	.m-b-450.m_b_0{margin-bottom: 0;}
 	.tons_rock_SecThree p{padding-right: 0;}
+	.second-img-left{
+		display: none
+	}
+	.second-img-right{
+		display: none
+	}
+	.second-img-left-big{
+		display:none;
+	}
+	.post-main-img img{
+		width:100%;
+		margin-bottom: 30px;
+		box-shadow: none;
+		border:0;
+	}
+	.post-section{
+		padding:30px 0;
+	}
+	.bottom_banner p{
+		width:100%;
+	}
+	.footer{
+		padding-top:00px;
+	}
+	.merge-inheader{
+		margin-top:0;
+	}
 }
 
 @media(max-width: 767px){
@@ -306,6 +333,7 @@
 	.partner_bx_wrap .details h3{font-size: 24px;}
 	.partner_bx_wrap .partner_bx_inner{margin-bottom: 130px;}
 	.team_member.tm_member{margin-bottom: 120px;}
+	
 	}
 
 @media(max-width: 655px){
