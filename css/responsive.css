@@ -381,6 +381,7 @@
 	.see-morebtn{
 		width:155px; margin: 50px auto 50px auto;
 	}
+	.reverse_direction{flex-direction: column-reverse;margin-bottom: 90px;}
 	.Day_bx{
 		width:100%;
 		float:none;
@@ -406,7 +407,29 @@
 	.up-guide-bg{min-height: 450px;}
 	.experience_bx_wrap{margin-top: 20px;}
 	.bottom_banner p{font-size: 17px;}
+	.second-img-right{
+		display: none
 	}
+	.second-img-left{
+		display: none
+	}
+	.post-main-img img{
+		width:100%;
+		margin-bottom: 30px;
+		box-shadow: none;
+		border:0;
+	}
+	.post-section{
+		padding:30px 0;
+	}
+	.bottom_banner p{
+		width:100%;
+	}
+	.footer{
+		padding-top:00px;
+	}
+	}
+
 
 @media(min-width: 1600px) and (max-width: 1999px){
 	.container{
