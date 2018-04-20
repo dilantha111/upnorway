@@ -272,6 +272,7 @@
 	.tons_rock2_text_wrap.pl{padding-left: 0;}
 	.Reverse_Direction{flex-direction: column-reverse;}
 	.tons_rock2_text_wrap.last{margin-bottom: 70px;}
+	.reverse_direction{flex-direction: column-reverse;}
 }
 
 @media(max-width: 767px){
@@ -343,6 +344,7 @@
 	.partner_bx_wrap .details h3{font-size: 24px;}
 	.partner_bx_wrap .partner_bx_inner{margin-bottom: 130px;}
 	.team_member.tm_member{margin-bottom: 120px;}
+	
 	
 	}
 
@@ -472,6 +474,19 @@
 	.merge-inheader{
 		margin-top:0;
 	}
+	.rock_bg-purchase-module{
+		background:none;
+		background-size: 80%;
+	 
+	}
+	.rock_bg-purchase-module .experience_bx_wrap{
+		width: 100%;
+		margin:0px auto 0 auto;
+	}
+	.btn_Enquire{
+		width: 100%;
+		text-align: center;
+	}
 	}
 
 
@@ -481,8 +496,19 @@
 		max-width:1500px !important;
 	}
 	.arrival-destination{
-		right: 19%;
+		right: 22%;
 	}
+	.Journey_Slider .owl-item img{
+		max-height: 120px;
+	  }
+	  .rock_bg-purchase-module .experience_bx_wrap{
+		width: 85%;
+		margin:330px auto 0 auto;
+	}
+	.rock_bg-purchase-module .included button{
+		width: 330px
+	}
+	
 }
 
 @media(min-width: 2000px) and (max-width: 3000px){
@@ -491,11 +517,25 @@
 		max-width:1700px !important;
 		
 	}
+	.rock_bg-purchase-module .experience_bx_wrap{
+		width: 85%;
+		margin:330px auto 0 auto;
+	}
+	.rock_bg-purchase-module .included button{
+		width: 330px
+	}
 	.arrival-destination{
-		top: -207px;
-		right: 22%;
+		top: -22px;
+		right: 24%;
+
 	}
 	.bottom_logos-wrap .line {
 		width: 69%;
 	}
+	.Journey_Slider .owl-item img{
+		max-height: 120px;
+	  }
+	  .journey-space-max-res{
+		  margin-bottom: 100px;
+	  }
 }

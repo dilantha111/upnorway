@@ -11,6 +11,20 @@
     align-items: center
 }
 
+.rock_bg-purchase-module{
+    background: url(../images/tons-rock-bg.jpg) no-repeat top left;
+    background-size: 80%;
+ 
+}
+.rock_bg-purchase-module .experience_bx_wrap{
+    width: 85%;
+    margin:230px auto 0 auto;
+}
+
+.rock_bg-purchase-module .included button{
+    width: 250px
+}
+
 .bottom_banner{background: url('../images/tons-rock-bottom.jpg') no-repeat center;background-size: cover;min-height: 327px;color: #fff;padding: 180px 75px;margin-top: 230px;margin-bottom: 165px; text-align: center;}
 .bottom_banner p{font-size: 24px;font-weight: 300; padding:0 20px; text-align: center; width:80%; margin:0 auto; line-height: 36px;}
 .bottom_banner h4{font-size: 24px;color: #94d4d9 !important;font-weight: 500;margin: 30px 0 10px 0;;}
