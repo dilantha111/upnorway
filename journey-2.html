@@ -85,8 +85,8 @@
 
   
 
-<!-- Modal Book Now -->
-<div class="modal fade" id="book_now" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+  <!-- Modal -->
+<div class="modal fade" id="enquire" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
   <div class="modal-dialog modal-lg" role="document">
     <div class="modal-content">
       <div class="modal-header">
@@ -131,7 +131,7 @@
             <div class="col-md-6 col-lg-6">
               <div class="form-group">
                 <input type="text" required="required">
-                <label class="control-label" for="input">Number of Tickets</label><i class="bar"></i>
+                <label class="control-label" for="input">Number of tickets</label><i class="bar"></i>
               </div>
             </div>
             <div class="col-md-12 col-lg-12">
@@ -144,8 +144,10 @@
         </form>
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+        <div class="center model-footer-btns" align="center">
+        <button type="button" class="btn light-btn" data-dismiss="modal">Close</button>
         <button type="button" class="btn green_btn">Pay Now</button>
+      </div>
       </div>
     </div>
   </div>
@@ -215,7 +217,7 @@
                   </li>
                 </ul>
                 <div class="">
-                  <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#book_now">Book Now</button>
+                  <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#enquire">Book Now</button>
                 </div>
               </div>
             </div>
@@ -229,11 +231,11 @@
           <span>OSLO</span><i class="fas fa-plane fa-rotate-90"></i></div>
       </div>
     <div class="container">
-      <div class="journey_sec_one">
-        <div class="row m-b-450">
-          <div class="col-md-12 col-lg-7 co-sm-12">
+      <div class="post-section section_Wrap journey-space-max-res">
+        <div class="row">
+          <div class="col-md-12 col-lg-7 co-sm-12 ">
             <div class="journey_img_wrap right_align img-left wow fadeIn">
-              <img class="img_1" src="images/journey_1.jpg">
+              <img class="img_1 change_now" src="images/journey_1.jpg">
             </div>
           </div>
           <div class="col-md-12 col-lg-5 col-sm-12">
@@ -243,7 +245,7 @@
                 <h2 class="Gn_black_heading">OSLO HEGGENES (210 KM)</h2>
                 <h4 class="Sub_heading">Easy start: Enjoy the Luxuries of Herangtunet</h4>
               </div>  
-              <p class="generic_para Gn_Para">The drive time from Oslo to Herangunet Boutique Hotel in Heggenes is 
+              <p class="">The drive time from Oslo to Herangunet Boutique Hotel in Heggenes is 
               approximately 3 hours, but it's worth slowing down to sample local 
               products along the way. Arriving in the early afternoon, you’ll have time 
               to make the most of this warm, intimate forest hideaway. Relax with a 
@@ -252,14 +254,17 @@
               </p>
               <div class="Journey_Slider">
                 <div class="owl-carousel journey_slider01 owl-theme">
-                  <div class="item">
-                    <img class="" src="images/journey_slide1.jpg">
+                  <div class="item" data-id="journey_slide1">
+                    <img class="" src="http://cdn-image.travelandleisure.com/sites/default/files/styles/1600x1000/public/1490029386/fisherman-cabin-hamnoy-lofoten-islands-norway-NORWAY0320.jpg?itok=cpPuUjh1">
                   </div>
                   <div class="item">
                     <img class="" src="images/journey_slide01.jpg">
                   </div>
                   <div class="item">
-                    <img class="" src="images/journey_slide1.jpg">
+                    <img class="" src="https://cdn.theculturetrip.com/wp-content/uploads/2016/09/shutterstock_462673501.jpg">
+                  </div>
+                  <div class="item">
+                    <img class="" src="images/journey_slide01.jpg">
                   </div>
                 </div>
               </div>
@@ -268,8 +273,8 @@
         </div>
       </div>  
 
-      <div class="journey_sec_tow">
-        <div class="row m-b-450">
+      <div class="post-section section_Wrap journey-space-max-res">
+        <div class="row reverse_direction">
           <div class="col-md-12 col-lg-5 col-sm-12">
             <div class="wow fadeIn destination-info right_pad">
               <div class="Journey_Head right_silde">
@@ -277,7 +282,7 @@
                 <h2 class="Gn_black_heading">HEGGENES BØVERDALEN (145 KM)</h2>
                 <h4 class="Sub_heading">Scenic Route Valdresflye​ A Local Food El Dorado</h4>
               </div>  
-              <p class="generic_para Gn_Para">Regardless of where you stop on the 50 km Scenic Route Valdresflye, you 
+              <p class="generic_para">Regardless of where you stop on the 50 km Scenic Route Valdresflye, you 
               will not get far before it starts to feel like a proper expedition. The wide 
               open landscape needs little human intervention, and the rest areas and 
               artworks blend into the background and draw your attention to individual 
@@ -310,8 +315,8 @@
         </div>
       </div>
 
-      <div class="journey_sec_third">
-         <div class="row m-b-450">
+      <div class="post-section section_Wrap journey-space-max-res">
+         <div class="row">
           <div class="col-md-12 col-lg-7 co-sm-12">
             <div class="journey_img_wrap right_align img-left wow fadeIn">
               <img class="img_1" src="images/journey_1.jpg">
@@ -324,18 +329,18 @@
                 <h2 class="Gn_black_heading">BØVERDALEN SOGNEFJELLET (50 KM)</h2>
                 <h4 class="Sub_heading">Scenic Route Sognefjellet & Glacier Walk</h4>
               </div>  
-              <p class="generic_para Gn_Para">There are few stretches of road that provide such a dramatic and overpowering natural backdrop as the Scenic Route Sognefjellet. Get an early start and drive the 33 km to Sognefjellshytta, where a guide will be waiting to accompany you on a hike over the spectacular glacier Smørstabbreen. You will quickly find yourself in totally secluded wilderness, among visually stunning blue ice formations. Spend the night at Sognefjellshytta​ overlooking glaciers and the iconic Hurrungane mountains, and relax in an explorer atmosphere.
+              <p class="generic_para">There are few stretches of road that provide such a dramatic and overpowering natural backdrop as the Scenic Route Sognefjellet. Get an early start and drive the 33 km to Sognefjellshytta, where a guide will be waiting to accompany you on a hike over the spectacular glacier Smørstabbreen. You will quickly find yourself in totally secluded wilderness, among visually stunning blue ice formations. Spend the night at Sognefjellshytta​ overlooking glaciers and the iconic Hurrungane mountains, and relax in an explorer atmosphere.
               </p>
               <div class="Journey_Slider">
                 <div class="owl-carousel journey_slider01 owl-theme">
                   <div class="item">
-                    <img class="" src="images/journey_slide3.jpg">
+                    <img class="" src="https://wallpaperstudio10.com/static/wpdb/wallpapers/1920x1080/173289.jpg">
                   </div>
                   <div class="item">
-                    <img class="" src="images/journey_slide03.jpg">
+                    <img class="" src="http://globalmedicalco.com/photos/globalmedicalco/18/88125.jpg">
                   </div>
                   <div class="item">
-                    <img class="" src="images/journey_slide3.jpg">
+                    <img class="" src="http://www.4usky.com/data/out/66/164587632-norway-wallpapers.jpg">
                   </div>
                 </div>
               </div>
@@ -344,8 +349,8 @@
         </div>
       </div>
 
-      <div class="journey_sec_four">
-        <div class="row m-b-450">
+      <div class="post-section section_Wrap journey-space-max-res">
+        <div class="row">
           <div class="col-md-12 col-lg-7 co-sm-12">
             <div class="journey_img_wrap right_align img-left wow fadeIn">
               <img class="img_1" src="images/journey_4.jpg">
@@ -358,18 +363,18 @@
                 <h2 class="Gn_black_heading">SOGNEFJELLET SOLVORN (75 KM)</h2>
                 <h4 class="Sub_heading">From Mountains to Fjords</h4>
               </div>  
-              <p class="generic_para Gn_Para">As your journey continues along Scenic Route Sognefjellet to Solvorn, you will descend into fjords where the clear water changes colour from green to blue, in harmony with the light and weather. There are plenty of photo stops along the way to ​Walaker Hotel​, in the small fruit-growing village of Solvorn. This is the oldest family-run hotel in Norway, with more than 370 years of history. The place is an experience on its own, and its lavish gardens are the perfect place to unwind after a day loaded with sensations. Guided gallery tour before a home-cooked dinner.
+              <p class="generic_para">As your journey continues along Scenic Route Sognefjellet to Solvorn, you will descend into fjords where the clear water changes colour from green to blue, in harmony with the light and weather. There are plenty of photo stops along the way to ​Walaker Hotel​, in the small fruit-growing village of Solvorn. This is the oldest family-run hotel in Norway, with more than 370 years of history. The place is an experience on its own, and its lavish gardens are the perfect place to unwind after a day loaded with sensations. Guided gallery tour before a home-cooked dinner.
               </p>
               <div class="Journey_Slider">
                 <div class="owl-carousel journey_slider01 owl-theme">
                   <div class="item">
-                    <img class="" src="images/journey_slide4.jpg">
+                    <img class="" src="https://i1.wp.com/thinkingnomads.com/wp-content/uploads/2017/03/bergen-norway-1.jpg?resize=759%2C500&ssl=1">
                   </div>
                   <div class="item">
-                    <img class="" src="images/journey_slide4.jpg">
+                    <img class="" src="https://photos.smugmug.com/Europe/Norway/i-5fcwS3X/0/f6120322/L/P5200767-L.jpg">
                   </div>
                   <div class="item">
-                    <img class="" src="images/journey_slide4.jpg">
+                    <img class="" src="https://i.pinimg.com/originals/06/53/93/0653936f1963c4b1ee2023ae92a4565f.jpg">
                   </div>
                 </div>
               </div>
@@ -378,8 +383,8 @@
         </div>
       </div>
 
-      <div class="journey_sec_five">
-        <div class="row m-b-450">
+      <div class="post-section section_Wrap journey-space-max-res">
+        <div class="row reverse_direction">
           <div class="col-md-12 col-lg-5 col-sm-12">
             <div class="wow fadeIn destination-info right_pad">
               <div class="Journey_Head right_silde">
@@ -387,7 +392,7 @@
                 <h2 class="Gn_black_heading">SOLVORN VOSS (150 KM)</h2>
                 <h4 class="Sub_heading">Orchards, Urnes Stave Church & Fjord Fiesta</h4>
               </div>  
-              <p class="generic_para Gn_Para">Take the ferry across the fjord to admire the jewel that is Urnes Stave Church, before continuing on through the valley of Flåm. For some, Flåm could be worth an extra day's stop to ride the famous Flåm railway, cruise the Nærøy and Aurland fjords or visit Undredal, a village famous for its brown cheese. Continue on the breathtaking ​Scenic Route Aurlandsfjellet ​across the mountains, and – if you wish – take the looping detour through the world's longest car tunnel, just for fun. Dinner and accommodation at the charming ​Store Ringheim Gård​.
+              <p class="generic_para">Take the ferry across the fjord to admire the jewel that is Urnes Stave Church, before continuing on through the valley of Flåm. For some, Flåm could be worth an extra day's stop to ride the famous Flåm railway, cruise the Nærøy and Aurland fjords or visit Undredal, a village famous for its brown cheese. Continue on the breathtaking ​Scenic Route Aurlandsfjellet ​across the mountains, and – if you wish – take the looping detour through the world's longest car tunnel, just for fun. Dinner and accommodation at the charming ​Store Ringheim Gård​.
               </p>
             </div>  
           </div>
@@ -399,8 +404,8 @@
         </div>
       </div>
 
-      <div class="journey_sec_six">
-        <div class="row m-b-450">
+      <div class="post-section section_Wrap journey-space-max-res">
+        <div class="row">
           <div class="col-md-12 col-lg-7 co-sm-12">
             <div class="journey_img_wrap right_align img-left wow fadeIn">
               <img class="img_1" src="images/journey_6.jpg">
@@ -413,19 +418,19 @@
                 <h2 class="Gn_black_heading">VOSS BERGEN (105 KM)</h2>
                 <h4 class="Sub_heading">Morning Mountain Walk. Arrival in Bergen</h4>
               </div>  
-              <p class="generic_para Gn_Para">Store Ringheim Gård is a great place to view traditional Norwegian
-architecture and folky rose painting, enjoy homemade mountain food. and relax in a peaceful setting. Take a walk in the peaceful surroundings. before travelling the last stretch of the journey to Bergen.Return to Oslo on a domestic plane, take an international flight from Bergen Airport, or spend an extra day or two in town – there's plenty to see and do.
+              <p class="generic_para">Store Ringheim Gård is a great place to view traditional Norwegian
+              architecture and folky rose painting, enjoy homemade mountain food. and relax in a peaceful setting. Take a walk in the peaceful surroundings. before travelling the last stretch of the journey to Bergen.Return to Oslo on a domestic plane, take an international flight from Bergen Airport, or spend an extra day or two in town – there's plenty to see and do.
               </p>
               <div class="Journey_Slider">
                 <div class="owl-carousel journey_slider01 owl-theme">
                   <div class="item">
-                    <img class="" src="images/journey_slide5.jpg">
+                    <img class="" src="https://wallpaperstudio10.com/static/wpdb/wallpapers/1920x1080/167902.jpg">
                   </div>
                   <div class="item">
-                    <img class="" src="images/journey_slide5.jpg">
+                    <img class="" src="http://gipsypixel.com/wp-content/uploads/2017/11/Norwegian-Nature-Wallpaper-Hd-Pics--Of-Laptop.jpg">
                   </div>
                   <div class="item">
-                    <img class="" src="images/journey_slide5.jpg">
+                    <img class="" src="https://i.pinimg.com/originals/ca/02/e7/ca02e79a436e2382e1db485bd0d9af1e.jpg">
                   </div>
                 </div>
               </div>
@@ -642,16 +647,6 @@ architecture and folky rose painting, enjoy homemade mountain food. and relax in
   new WOW().init();
   </script>
 
-<script type="text/javascript">
-  $(".season_bx").mouseover(function(event) {
-    var currentId = $(this).attr('data-id');
-    //var currentSrc = $(this).children('img').attr('src');
-    //alert(currentSrc); 
-    $(".change_now").hide();
-    $(currentId).show();
-    //$("#weather_img").css("background-image",'url('+currentSrc+')');
-  });
-</script>
 
 <script>
             $(document).ready(function() {
@@ -705,6 +700,9 @@ architecture and folky rose painting, enjoy homemade mountain food. and relax in
                 loop: true,
                 dots:false,
                 stagePadding:50,
+                center: true,
+                stagePadding: true,
+                items:3, 
                 responsive: {
                   0: {
                     items: 1
@@ -742,8 +740,16 @@ architecture and folky rose painting, enjoy homemade mountain food. and relax in
           
           <script type="text/javascript">
             $('.navicon').click( function() {
-  $(this).toggleClass('navicon--toggle');
-})
+            $(this).toggleClass('navicon--toggle');
+          })
+          </script>
+
+          <script type="text/javascript">
+            $(".Journey_Slider .item").click(function(event) {
+              //var currentId = $(this).attr('src');
+              var currentSrc = $(this).children('img').attr('src');
+              $(this).parents('.section_Wrap').find('.journey_img_wrap img').attr('src', currentSrc);;
+            });
           </script>
 
 </body>

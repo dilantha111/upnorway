@@ -121,7 +121,7 @@ form.f1{position: relative;}
 
 .interested_in .other_info .form-group{margin-bottom: 2.5rem;}
 .u_name.u_nm.text-center{text-align: left !important;}
-.not_sure.danger{background: #c24a32;border:1px solid #c24a32;color: #fff;}
+.not_sure.danger{background: #c24a32;border:1px solid #c24a32;color: #fff; right:15px;}
 select {
      /*for firefox*/
      -moz-appearance: none;
