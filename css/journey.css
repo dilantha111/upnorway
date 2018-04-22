@@ -440,7 +440,7 @@
     padding:10px;
     line-height:30px;
     border-bottom: 1px solid #bcc5ce;
-    resize: both;
+    resize: vertical;
     margin-top:10px;
 }
 textarea{
