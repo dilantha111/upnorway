@@ -433,3 +433,16 @@
 .btn{
     border-radius: 3px;
 }
+.get-comment-box{
+    width:100%;
+    border:none;
+    font-size: 22px;
+    padding:10px;
+    line-height:30px;
+    border-bottom: 1px solid #bcc5ce;
+    resize: both;
+    margin-top:10px;
+}
+textarea{
+    resize: both;
+}

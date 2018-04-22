@@ -1148,7 +1148,9 @@
   .interested_in .interest_kind {
     padding: 0;
   }
-
+  .admin-logo{
+    position: static;
+  }
   .season_bx img {
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px !important;

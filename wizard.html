@@ -14,8 +14,6 @@
   
     <!--Wizard-->
     <link rel="stylesheet" href="css/parent.css">
-    <!--Normalize-->
-
 </head>
 
 <body>   
@@ -720,7 +718,7 @@
                   
                   <div class="col-md-4 col-sm-6">
                     <div class="form-group">
-                      <select name="" required="">
+                      <select name="" required="" class="js-example-basic-single" style="width: 100%;">
                         <option value="">18 Years old</option>
                         <option value="">19 Years old</option>
                         <option value="">20 Years old</option>
@@ -943,8 +941,14 @@
    <script type="text/javascript" src="js/jquery.backstretch.min.js"></script>
    <!--Datepicker-->
    <script type="text/javascript" src="datepicker/js/calendar.js"></script>
+   <script type="text/javascript" src="js/select2.min.js"></script>
    <script type="text/javascript" src="js/scripts.js"></script>
   
+   <script>
+     $(document).ready(function() {
+        $('.js-example-basic-single').select2();
+    });
+   </script>
   <script type="text/javascript">
     $(".season_bx").mouseover(function(event) {
       var currentId = $(this).attr('data-id');
