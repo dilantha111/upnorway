@@ -73,7 +73,7 @@ a{text-decoration: none !important;}
 ul{list-style: none;margin:0;padding:0;}
 ul,ol,li {list-style: none;padding: 0;margin: 0;}
 button{outline: none !important;}
-textarea{max-width: 100%;height: auto !important;}
+textarea{max-width: 100%;}
 hr{margin:0;}
 img{max-width: 100%;}
 
